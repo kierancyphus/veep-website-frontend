@@ -14,6 +14,9 @@
     "moduleResolution": "node",
     "isolatedModules": true,
     "baseUrl": "src",
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "noEmit": true,
   },
   "include": [
     "src"

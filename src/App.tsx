@@ -1,13 +1,14 @@
-import React from 'react'
+import React, { FC } from 'react'
 import { Route, Switch } from 'react-router-dom'
+import NavBar from './components/NavBar'
+import Home from './components/Home'
 
-import './App.scss'
-
-const App = () => (
+const App: FC = () => (
   <>
+    <NavBar />
     <Switch>
       <Route path="/" exact>
-        Home page
+        <Home />
       </Route>
       <Route path="/test">Test Page</Route>
       <Route path="/about-us">About us</Route>
