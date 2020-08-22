@@ -1,25 +1,21 @@
-import i18next from 'i18next';
-import { initReactI18next } from 'react-i18next';
+import i18next from 'i18next'
+import { initReactI18next } from 'react-i18next'
 
-import LanguageDetector from 'i18next-browser-languagedetector';
+import LanguageDetector from 'i18next-browser-languagedetector'
 
-import en from './en/translation.json';
-import de from './de/translation.json';
-import { ConvertedToObjectType } from './types';
+import en from './en/translation.json'
+import { ConvertedToObjectType } from './types'
 
 const translationsJson = {
   en: {
     translation: en,
   },
-  de: {
-    translation: de,
-  },
-};
+}
 
-export type TranslationResource = typeof en;
-export type LanguageKey = keyof TranslationResource;
+export type TranslationResource = typeof en
+export type LanguageKey = keyof TranslationResource
 
-export const translations: ConvertedToObjectType<TranslationResource> = {} as any;
+export const translations: ConvertedToObjectType<TranslationResource> = {} as any
 
 /*
  * Converts the static JSON file into an object where keys are identical
@@ -29,16 +25,15 @@ export const translations: ConvertedToObjectType<TranslationResource> = {} as an
  */
 const convertLanguageJsonToObject = (obj: any, dict: {}, current?: string) => {
   Object.keys(obj).forEach(key => {
-    const currentLookupKey = current ? `${current}.${key}` : key;
+    const currentLookupKey = current ? `${current}.${key}` : key
     if (typeof obj[key] === 'object') {
-      dict[key] = {};
-      convertLanguageJsonToObject(obj[key], dict[key], currentLookupKey);
+      dict[key] = {}
+      convertLanguageJsonToObject(obj[key], dict[key], currentLookupKey)
     } else {
-      dict[key] = currentLookupKey;
+      dict[key] = currentLookupKey
     }
-  });
-};
-
+  })
+}
 export const i18n = i18next
   // pass the i18n instance to react-i18next.
   .use(initReactI18next)
@@ -50,6 +45,7 @@ export const i18n = i18next
   .init(
     {
       resources: translationsJson,
+
       fallbackLng: 'en',
       debug:
         process.env.NODE_ENV !== 'production' &&
@@ -60,6 +56,6 @@ export const i18n = i18next
       },
     },
     () => {
-      convertLanguageJsonToObject(en, translations);
+      convertLanguageJsonToObject(en, translations)
     },
-  );
+  )
