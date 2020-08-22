@@ -7,14 +7,51 @@
  */
 
 import React, { FC } from 'react'
-import { Box, Card, CardHeader } from '@material-ui/core'
+import { Helmet } from 'react-helmet-async'
+import { Switch, Route, BrowserRouter } from 'react-router-dom'
+
+import { GlobalStyle } from 'styles/global-styles'
+
+import { NavBar } from './containers/NavBar/NavBar'
+import { Home } from './containers/Home/Home'
+import { Test } from './containers/Test/Test'
+import { Projects } from './containers/Projects/Projects'
+import { AboutUs } from './containers/AboutUs/AboutUs'
+import { Teams } from './containers/Teams/Teams'
+import { Events } from './containers/Events/Events'
 
 export const App: FC = () => {
   return (
-    <Box padding={20}>
-      <Card elevation={5}>
-        <CardHeader title="this is a test" />
-      </Card>
-    </Box>
+    <BrowserRouter>
+      <Helmet
+        titleTemplate="%s - React Boilerplate"
+        defaultTitle="React Boilerplate"
+      >
+        <meta name="description" content="A React Boilerplate application" />
+      </Helmet>
+
+      <NavBar />
+      <Switch>
+        <Route path="/" exact>
+          <Home />
+        </Route>
+        <Route path="/projects">
+          <Projects />
+        </Route>
+        <Route path="/teams">
+          <Teams />
+        </Route>
+        <Route path="/events">
+          <Events />
+        </Route>
+        <Route path="/test">
+          <Test />
+        </Route>
+        <Route path="/about-us">
+          <AboutUs />
+        </Route>
+      </Switch>
+      <GlobalStyle />
+    </BrowserRouter>
   )
 }
