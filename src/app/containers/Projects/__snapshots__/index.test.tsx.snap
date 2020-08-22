@@ -1,0 +1,779 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Projects renders without errors 1`] = `
+<div>
+  <div
+    class="MuiGrid-root MuiGrid-container"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-1 MuiGrid-grid-lg-2"
+    />
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-10 MuiGrid-grid-lg-8"
+    >
+      <div
+        class="MuiBox-root MuiBox-root-2"
+      >
+        <div
+          class="react-reveal"
+        >
+          <h1
+            class="MuiTypography-root MuiTypography-h1"
+          >
+            Projects.
+          </h1>
+        </div>
+      </div>
+      <div
+        class="react-reveal"
+      >
+        <div
+          class="MuiPaper-root MuiCard-root MuiPaper-elevation5 MuiPaper-rounded"
+        >
+          <div
+            class="MuiBox-root MuiBox-root-4"
+          >
+            <div
+              class="MuiTabs-root"
+            >
+              <div
+                class="MuiTabs-scroller MuiTabs-fixed"
+                style="overflow: hidden;"
+              >
+                <div
+                  class="MuiTabs-flexContainer MuiTabs-centered"
+                  role="tablist"
+                >
+                  <button
+                    aria-selected="true"
+                    class="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary Mui-selected MuiTab-fullWidth"
+                    role="tab"
+                    tabindex="0"
+                    type="button"
+                  >
+                    <span
+                      class="MuiTab-wrapper"
+                    >
+                      <h5
+                        class="MuiTypography-root MuiTypography-h5"
+                      >
+                        Upcoming Projects
+                      </h5>
+                    </span>
+                    <span
+                      class="MuiTouchRipple-root"
+                    />
+                  </button>
+                  <button
+                    aria-selected="false"
+                    class="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary MuiTab-fullWidth"
+                    role="tab"
+                    tabindex="-1"
+                    type="button"
+                  >
+                    <span
+                      class="MuiTab-wrapper"
+                    >
+                      <h5
+                        class="MuiTypography-root MuiTypography-h5"
+                      >
+                        Current Projects
+                      </h5>
+                    </span>
+                    <span
+                      class="MuiTouchRipple-root"
+                    />
+                  </button>
+                  <button
+                    aria-selected="false"
+                    class="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary MuiTab-fullWidth"
+                    role="tab"
+                    tabindex="-1"
+                    type="button"
+                  >
+                    <span
+                      class="MuiTab-wrapper"
+                    >
+                      <h5
+                        class="MuiTypography-root MuiTypography-h5"
+                      >
+                        Previous Projects
+                      </h5>
+                    </span>
+                    <span
+                      class="MuiTouchRipple-root"
+                    />
+                  </button>
+                </div>
+                <span
+                  class="PrivateTabIndicator-root-5 PrivateTabIndicator-colorSecondary-7 MuiTabs-indicator"
+                  style="left: 0px; width: 0px;"
+                />
+              </div>
+            </div>
+            <div
+              class="MuiBox-root MuiBox-root-10"
+            >
+              <div
+                class="react-reveal"
+              >
+                <div
+                  class="MuiBox-root MuiBox-root-12"
+                >
+                  <div
+                    class="react-reveal"
+                  >
+                    <h4
+                      class="MuiTypography-root MuiTypography-h4 MuiTypography-colorTextSecondary"
+                    >
+                      Community
+                    </h4>
+                  </div>
+                  <br
+                    class="react-reveal"
+                  />
+                  <div
+                    class="react-reveal"
+                  >
+                    <div
+                      class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3"
+                    >
+                      <div
+                        class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4"
+                      >
+                        <div
+                          class="MuiPaper-root MuiCard-root MuiPaper-elevation5 MuiPaper-rounded"
+                        >
+                          <div
+                            class="MuiBox-root MuiBox-root-14"
+                          >
+                            <div
+                              class="MuiCardHeader-root"
+                            >
+                              <div
+                                class="MuiCardHeader-content"
+                              >
+                                <span
+                                  class="MuiTypography-root MuiCardHeader-title MuiTypography-h5 MuiTypography-displayBlock"
+                                >
+                                  Organization
+                                </span>
+                                <span
+                                  class="MuiTypography-root MuiCardHeader-subheader MuiTypography-body1 MuiTypography-colorTextSecondary MuiTypography-displayBlock"
+                                >
+                                  Database Management System
+                                </span>
+                              </div>
+                            </div>
+                            <div
+                              class="MuiBox-root MuiBox-root-16"
+                            >
+                              <a
+                                href="google.com"
+                                rel="noreferrer"
+                                style="text-decoration: none; width: 100%;"
+                                target="_blank"
+                              >
+                                <button
+                                  class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-fullWidth"
+                                  tabindex="0"
+                                  type="button"
+                                >
+                                  <span
+                                    class="MuiButton-label"
+                                  >
+                                    Apply
+                                  </span>
+                                  <span
+                                    class="MuiTouchRipple-root"
+                                  />
+                                </button>
+                              </a>
+                            </div>
+                            <div
+                              class="MuiCardContent-root"
+                            >
+                              <p
+                                class="MuiTypography-root MuiTypography-body1"
+                              >
+                                Organization uses this current implementation which has the issues of X, Y and Z. This project will look to resolve those by developing a database management system that has a connecting API used by their existing website. Some other stuff that I cant think of now
+                              </p>
+                            </div>
+                            <div
+                              class="MuiBox-root MuiBox-root-18"
+                            >
+                              <button
+                                class="MuiButtonBase-root MuiIconButton-root"
+                                tabindex="0"
+                                type="button"
+                              >
+                                <span
+                                  class="MuiIconButton-label"
+                                >
+                                  <svg
+                                    fill="none"
+                                    height="24"
+                                    stroke="currentColor"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    stroke-width="2"
+                                    viewBox="0 0 24 24"
+                                    width="24"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                  >
+                                    <polyline
+                                      points="6 9 12 15 18 9"
+                                    />
+                                  </svg>
+                                </span>
+                                <span
+                                  class="MuiTouchRipple-root"
+                                />
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4"
+                      >
+                        <div
+                          class="MuiPaper-root MuiCard-root MuiPaper-elevation5 MuiPaper-rounded"
+                        >
+                          <div
+                            class="MuiBox-root MuiBox-root-20"
+                          >
+                            <div
+                              class="MuiCardHeader-root"
+                            >
+                              <div
+                                class="MuiCardHeader-content"
+                              >
+                                <span
+                                  class="MuiTypography-root MuiCardHeader-title MuiTypography-h5 MuiTypography-displayBlock"
+                                >
+                                  Organization
+                                </span>
+                                <span
+                                  class="MuiTypography-root MuiCardHeader-subheader MuiTypography-body1 MuiTypography-colorTextSecondary MuiTypography-displayBlock"
+                                >
+                                  Database Management System
+                                </span>
+                              </div>
+                            </div>
+                            <div
+                              class="MuiBox-root MuiBox-root-22"
+                            >
+                              <a
+                                href="google.com"
+                                rel="noreferrer"
+                                style="text-decoration: none; width: 100%;"
+                                target="_blank"
+                              >
+                                <button
+                                  class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-fullWidth"
+                                  tabindex="0"
+                                  type="button"
+                                >
+                                  <span
+                                    class="MuiButton-label"
+                                  >
+                                    Apply
+                                  </span>
+                                  <span
+                                    class="MuiTouchRipple-root"
+                                  />
+                                </button>
+                              </a>
+                            </div>
+                            <div
+                              class="MuiCardContent-root"
+                            >
+                              <p
+                                class="MuiTypography-root MuiTypography-body1"
+                              >
+                                Organization uses this current implementation which has the issues of X, Y and Z. This project will look to resolve those by developing a database management system that has a connecting API used by their existing website. Some other stuff that I cant think of now
+                              </p>
+                            </div>
+                            <div
+                              class="MuiBox-root MuiBox-root-24"
+                            >
+                              <button
+                                class="MuiButtonBase-root MuiIconButton-root"
+                                tabindex="0"
+                                type="button"
+                              >
+                                <span
+                                  class="MuiIconButton-label"
+                                >
+                                  <svg
+                                    fill="none"
+                                    height="24"
+                                    stroke="currentColor"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    stroke-width="2"
+                                    viewBox="0 0 24 24"
+                                    width="24"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                  >
+                                    <polyline
+                                      points="6 9 12 15 18 9"
+                                    />
+                                  </svg>
+                                </span>
+                                <span
+                                  class="MuiTouchRipple-root"
+                                />
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4"
+                      >
+                        <div
+                          class="MuiPaper-root MuiCard-root MuiPaper-elevation5 MuiPaper-rounded"
+                        >
+                          <div
+                            class="MuiBox-root MuiBox-root-26"
+                          >
+                            <div
+                              class="MuiCardHeader-root"
+                            >
+                              <div
+                                class="MuiCardHeader-content"
+                              >
+                                <span
+                                  class="MuiTypography-root MuiCardHeader-title MuiTypography-h5 MuiTypography-displayBlock"
+                                >
+                                  Organization
+                                </span>
+                                <span
+                                  class="MuiTypography-root MuiCardHeader-subheader MuiTypography-body1 MuiTypography-colorTextSecondary MuiTypography-displayBlock"
+                                >
+                                  Database Management System
+                                </span>
+                              </div>
+                            </div>
+                            <div
+                              class="MuiBox-root MuiBox-root-28"
+                            >
+                              <a
+                                href="google.com"
+                                rel="noreferrer"
+                                style="text-decoration: none; width: 100%;"
+                                target="_blank"
+                              >
+                                <button
+                                  class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-fullWidth"
+                                  tabindex="0"
+                                  type="button"
+                                >
+                                  <span
+                                    class="MuiButton-label"
+                                  >
+                                    Apply
+                                  </span>
+                                  <span
+                                    class="MuiTouchRipple-root"
+                                  />
+                                </button>
+                              </a>
+                            </div>
+                            <div
+                              class="MuiCardContent-root"
+                            >
+                              <p
+                                class="MuiTypography-root MuiTypography-body1"
+                              >
+                                Organization uses this current implementation which has the issues of X, Y and Z. This project will look to resolve those by developing a database management system that has a connecting API used by their existing website. Some other stuff that I cant think of now
+                              </p>
+                            </div>
+                            <div
+                              class="MuiBox-root MuiBox-root-30"
+                            >
+                              <button
+                                class="MuiButtonBase-root MuiIconButton-root"
+                                tabindex="0"
+                                type="button"
+                              >
+                                <span
+                                  class="MuiIconButton-label"
+                                >
+                                  <svg
+                                    fill="none"
+                                    height="24"
+                                    stroke="currentColor"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    stroke-width="2"
+                                    viewBox="0 0 24 24"
+                                    width="24"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                  >
+                                    <polyline
+                                      points="6 9 12 15 18 9"
+                                    />
+                                  </svg>
+                                </span>
+                                <span
+                                  class="MuiTouchRipple-root"
+                                />
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="MuiBox-root MuiBox-root-32"
+                >
+                  <div
+                    class="react-reveal"
+                  >
+                    <h4
+                      class="MuiTypography-root MuiTypography-h4 MuiTypography-colorTextSecondary"
+                    >
+                      Campus Clubs
+                    </h4>
+                  </div>
+                  <br
+                    class="react-reveal"
+                  />
+                  <div
+                    class="react-reveal"
+                  >
+                    <div
+                      class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3"
+                    >
+                      <div
+                        class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4"
+                      >
+                        <div
+                          class="MuiPaper-root MuiCard-root MuiPaper-elevation5 MuiPaper-rounded"
+                        >
+                          <div
+                            class="MuiBox-root MuiBox-root-34"
+                          >
+                            <div
+                              class="MuiCardHeader-root"
+                            >
+                              <div
+                                class="MuiCardHeader-content"
+                              >
+                                <span
+                                  class="MuiTypography-root MuiCardHeader-title MuiTypography-h5 MuiTypography-displayBlock"
+                                >
+                                  Organization
+                                </span>
+                                <span
+                                  class="MuiTypography-root MuiCardHeader-subheader MuiTypography-body1 MuiTypography-colorTextSecondary MuiTypography-displayBlock"
+                                >
+                                  Database Management System
+                                </span>
+                              </div>
+                            </div>
+                            <div
+                              class="MuiBox-root MuiBox-root-36"
+                            >
+                              <a
+                                href="google.com"
+                                rel="noreferrer"
+                                style="text-decoration: none; width: 100%;"
+                                target="_blank"
+                              >
+                                <button
+                                  class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-fullWidth"
+                                  tabindex="0"
+                                  type="button"
+                                >
+                                  <span
+                                    class="MuiButton-label"
+                                  >
+                                    Apply
+                                  </span>
+                                  <span
+                                    class="MuiTouchRipple-root"
+                                  />
+                                </button>
+                              </a>
+                            </div>
+                            <div
+                              class="MuiCardContent-root"
+                            >
+                              <p
+                                class="MuiTypography-root MuiTypography-body1"
+                              >
+                                Organization uses this current implementation which has the issues of X, Y and Z. This project will look to resolve those by developing a database management system that has a connecting API used by their existing website. Some other stuff that I cant think of now
+                              </p>
+                            </div>
+                            <div
+                              class="MuiBox-root MuiBox-root-38"
+                            >
+                              <button
+                                class="MuiButtonBase-root MuiIconButton-root"
+                                tabindex="0"
+                                type="button"
+                              >
+                                <span
+                                  class="MuiIconButton-label"
+                                >
+                                  <svg
+                                    fill="none"
+                                    height="24"
+                                    stroke="currentColor"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    stroke-width="2"
+                                    viewBox="0 0 24 24"
+                                    width="24"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                  >
+                                    <polyline
+                                      points="6 9 12 15 18 9"
+                                    />
+                                  </svg>
+                                </span>
+                                <span
+                                  class="MuiTouchRipple-root"
+                                />
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4"
+                      >
+                        <div
+                          class="MuiPaper-root MuiCard-root MuiPaper-elevation5 MuiPaper-rounded"
+                        >
+                          <div
+                            class="MuiBox-root MuiBox-root-40"
+                          >
+                            <div
+                              class="MuiCardHeader-root"
+                            >
+                              <div
+                                class="MuiCardHeader-content"
+                              >
+                                <span
+                                  class="MuiTypography-root MuiCardHeader-title MuiTypography-h5 MuiTypography-displayBlock"
+                                >
+                                  Organization
+                                </span>
+                                <span
+                                  class="MuiTypography-root MuiCardHeader-subheader MuiTypography-body1 MuiTypography-colorTextSecondary MuiTypography-displayBlock"
+                                >
+                                  Database Management System
+                                </span>
+                              </div>
+                            </div>
+                            <div
+                              class="MuiBox-root MuiBox-root-42"
+                            >
+                              <a
+                                href="google.com"
+                                rel="noreferrer"
+                                style="text-decoration: none; width: 100%;"
+                                target="_blank"
+                              >
+                                <button
+                                  class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-fullWidth"
+                                  tabindex="0"
+                                  type="button"
+                                >
+                                  <span
+                                    class="MuiButton-label"
+                                  >
+                                    Apply
+                                  </span>
+                                  <span
+                                    class="MuiTouchRipple-root"
+                                  />
+                                </button>
+                              </a>
+                            </div>
+                            <div
+                              class="MuiCardContent-root"
+                            >
+                              <p
+                                class="MuiTypography-root MuiTypography-body1"
+                              >
+                                Organization uses this current implementation which has the issues of X, Y and Z. This project will look to resolve those by developing a database management system that has a connecting API used by their existing website. Some other stuff that I cant think of now
+                              </p>
+                            </div>
+                            <div
+                              class="MuiBox-root MuiBox-root-44"
+                            >
+                              <button
+                                class="MuiButtonBase-root MuiIconButton-root"
+                                tabindex="0"
+                                type="button"
+                              >
+                                <span
+                                  class="MuiIconButton-label"
+                                >
+                                  <svg
+                                    fill="none"
+                                    height="24"
+                                    stroke="currentColor"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    stroke-width="2"
+                                    viewBox="0 0 24 24"
+                                    width="24"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                  >
+                                    <polyline
+                                      points="6 9 12 15 18 9"
+                                    />
+                                  </svg>
+                                </span>
+                                <span
+                                  class="MuiTouchRipple-root"
+                                />
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="MuiBox-root MuiBox-root-46"
+                >
+                  <div
+                    class="react-reveal"
+                  >
+                    <h4
+                      class="MuiTypography-root MuiTypography-h4 MuiTypography-colorTextSecondary"
+                    >
+                      Research
+                    </h4>
+                  </div>
+                  <br
+                    class="react-reveal"
+                  />
+                  <div
+                    class="react-reveal"
+                  >
+                    <div
+                      class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3"
+                    >
+                      <div
+                        class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4"
+                      >
+                        <div
+                          class="MuiPaper-root MuiCard-root MuiPaper-elevation5 MuiPaper-rounded"
+                        >
+                          <div
+                            class="MuiBox-root MuiBox-root-48"
+                          >
+                            <div
+                              class="MuiCardHeader-root"
+                            >
+                              <div
+                                class="MuiCardHeader-content"
+                              >
+                                <span
+                                  class="MuiTypography-root MuiCardHeader-title MuiTypography-h5 MuiTypography-displayBlock"
+                                >
+                                  Organization
+                                </span>
+                                <span
+                                  class="MuiTypography-root MuiCardHeader-subheader MuiTypography-body1 MuiTypography-colorTextSecondary MuiTypography-displayBlock"
+                                >
+                                  Database Management System
+                                </span>
+                              </div>
+                            </div>
+                            <div
+                              class="MuiBox-root MuiBox-root-50"
+                            >
+                              <a
+                                href="google.com"
+                                rel="noreferrer"
+                                style="text-decoration: none; width: 100%;"
+                                target="_blank"
+                              >
+                                <button
+                                  class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-fullWidth"
+                                  tabindex="0"
+                                  type="button"
+                                >
+                                  <span
+                                    class="MuiButton-label"
+                                  >
+                                    Apply
+                                  </span>
+                                  <span
+                                    class="MuiTouchRipple-root"
+                                  />
+                                </button>
+                              </a>
+                            </div>
+                            <div
+                              class="MuiCardContent-root"
+                            >
+                              <p
+                                class="MuiTypography-root MuiTypography-body1"
+                              >
+                                Organization uses this current implementation which has the issues of X, Y and Z. This project will look to resolve those by developing a database management system that has a connecting API used by their existing website. Some other stuff that I cant think of now
+                              </p>
+                            </div>
+                            <div
+                              class="MuiBox-root MuiBox-root-52"
+                            >
+                              <button
+                                class="MuiButtonBase-root MuiIconButton-root"
+                                tabindex="0"
+                                type="button"
+                              >
+                                <span
+                                  class="MuiIconButton-label"
+                                >
+                                  <svg
+                                    fill="none"
+                                    height="24"
+                                    stroke="currentColor"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    stroke-width="2"
+                                    viewBox="0 0 24 24"
+                                    width="24"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                  >
+                                    <polyline
+                                      points="6 9 12 15 18 9"
+                                    />
+                                  </svg>
+                                </span>
+                                <span
+                                  class="MuiTouchRipple-root"
+                                />
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-1 MuiGrid-grid-lg-2"
+    />
+  </div>
+</div>
+`;

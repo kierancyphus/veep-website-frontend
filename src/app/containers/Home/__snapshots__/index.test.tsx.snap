@@ -1,0 +1,1079 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProjectTypes renders without errors 1`] = `
+<div>
+  <div
+    class="MuiGrid-root MuiGrid-container"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-1 MuiGrid-grid-lg-2"
+    />
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-10 MuiGrid-grid-lg-8"
+    >
+      <div
+        class="MuiBox-root MuiBox-root-2"
+      >
+        <div
+          class="react-reveal"
+        >
+          <h2
+            class="MuiTypography-root MuiTypography-h2 MuiTypography-alignCenter"
+          >
+            home.main_quote
+          </h2>
+        </div>
+      </div>
+      <div
+        class="MuiPaper-root MuiCard-root MuiPaper-elevation5 MuiPaper-rounded"
+      >
+        <div
+          class="MuiCardContent-root"
+        >
+          <div
+            class="MuiBox-root MuiBox-root-4"
+          >
+            <div
+              class="react-reveal"
+            >
+              <h5
+                class="MuiTypography-root MuiTypography-h5"
+              >
+                Some kind of title I guess
+              </h5>
+            </div>
+            <br
+              class="react-reveal"
+            />
+            <div
+              class="react-reveal"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1"
+              >
+                home.intro_body
+              </p>
+            </div>
+            <br
+              class="react-reveal"
+            />
+            <div
+              class="react-reveal"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1"
+              >
+                home.intro_project_desc
+              </p>
+            </div>
+          </div>
+          <div
+            class="MuiBox-root MuiBox-root-6"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3 MuiGrid-justify-xs-center"
+            >
+              <div
+                class="MuiGrid-root MuiGrid-item MuiGrid-grid-lg-12 MuiGrid-grid-xl-4"
+              >
+                <div
+                  class="react-reveal"
+                >
+                  <div
+                    class="MuiPaper-root MuiCard-root MuiPaper-elevation5 MuiPaper-rounded"
+                  >
+                    <div
+                      class="MuiBox-root MuiBox-root-8"
+                    >
+                      <button
+                        class="MuiButtonBase-root MuiCardActionArea-root"
+                        tabindex="0"
+                        type="button"
+                      >
+                        <div
+                          class="MuiCardHeader-root"
+                        >
+                          <div
+                            class="MuiCardHeader-content"
+                          >
+                            <span
+                              class="MuiTypography-root MuiCardHeader-title MuiTypography-h5 MuiTypography-alignCenter MuiTypography-displayBlock"
+                            >
+                              Community
+                            </span>
+                          </div>
+                        </div>
+                        <div
+                          class="MuiCardContent-root"
+                        >
+                          <p
+                            class="MuiTypography-root MuiTypography-body1 MuiTypography-alignCenter"
+                          >
+                            home.projects_0_description
+                          </p>
+                        </div>
+                        <span
+                          class="MuiCardActionArea-focusHighlight"
+                        />
+                        <span
+                          class="MuiTouchRipple-root"
+                        />
+                      </button>
+                      <div
+                        class="MuiBox-root MuiBox-root-10"
+                      >
+                        <a
+                          class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+                          href="/projects?projectType=0&time=upcoming"
+                        >
+                          <button
+                            class="MuiButtonBase-root MuiButton-root MuiButton-text"
+                            tabindex="0"
+                            type="button"
+                          >
+                            <span
+                              class="MuiButton-label"
+                            >
+                              Upcoming Projects
+                            </span>
+                            <span
+                              class="MuiTouchRipple-root"
+                            />
+                          </button>
+                        </a>
+                        <a
+                          class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+                          href="/projects?projectType=0&time=current"
+                        >
+                          <button
+                            class="MuiButtonBase-root MuiButton-root MuiButton-text"
+                            tabindex="0"
+                            type="button"
+                          >
+                            <span
+                              class="MuiButton-label"
+                            >
+                              Current Projects
+                            </span>
+                            <span
+                              class="MuiTouchRipple-root"
+                            />
+                          </button>
+                        </a>
+                        <a
+                          class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+                          href="/projects?projectType=0&time=previous"
+                        >
+                          <button
+                            class="MuiButtonBase-root MuiButton-root MuiButton-text"
+                            tabindex="0"
+                            type="button"
+                          >
+                            <span
+                              class="MuiButton-label"
+                            >
+                              Previous Projects
+                            </span>
+                            <span
+                              class="MuiTouchRipple-root"
+                            />
+                          </button>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-item MuiGrid-grid-lg-12 MuiGrid-grid-xl-4"
+              >
+                <div
+                  class="react-reveal"
+                >
+                  <div
+                    class="MuiPaper-root MuiCard-root MuiPaper-elevation5 MuiPaper-rounded"
+                  >
+                    <div
+                      class="MuiBox-root MuiBox-root-12"
+                    >
+                      <button
+                        class="MuiButtonBase-root MuiCardActionArea-root"
+                        tabindex="0"
+                        type="button"
+                      >
+                        <div
+                          class="MuiCardHeader-root"
+                        >
+                          <div
+                            class="MuiCardHeader-content"
+                          >
+                            <span
+                              class="MuiTypography-root MuiCardHeader-title MuiTypography-h5 MuiTypography-alignCenter MuiTypography-displayBlock"
+                            >
+                              Campus Clubs
+                            </span>
+                          </div>
+                        </div>
+                        <div
+                          class="MuiCardContent-root"
+                        >
+                          <p
+                            class="MuiTypography-root MuiTypography-body1 MuiTypography-alignCenter"
+                          >
+                            home.projects_1_description
+                          </p>
+                        </div>
+                        <span
+                          class="MuiCardActionArea-focusHighlight"
+                        />
+                        <span
+                          class="MuiTouchRipple-root"
+                        />
+                      </button>
+                      <div
+                        class="MuiBox-root MuiBox-root-14"
+                      >
+                        <a
+                          class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+                          href="/projects?projectType=1&time=upcoming"
+                        >
+                          <button
+                            class="MuiButtonBase-root MuiButton-root MuiButton-text"
+                            tabindex="0"
+                            type="button"
+                          >
+                            <span
+                              class="MuiButton-label"
+                            >
+                              Upcoming Projects
+                            </span>
+                            <span
+                              class="MuiTouchRipple-root"
+                            />
+                          </button>
+                        </a>
+                        <a
+                          class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+                          href="/projects?projectType=1&time=current"
+                        >
+                          <button
+                            class="MuiButtonBase-root MuiButton-root MuiButton-text"
+                            tabindex="0"
+                            type="button"
+                          >
+                            <span
+                              class="MuiButton-label"
+                            >
+                              Current Projects
+                            </span>
+                            <span
+                              class="MuiTouchRipple-root"
+                            />
+                          </button>
+                        </a>
+                        <a
+                          class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+                          href="/projects?projectType=1&time=previous"
+                        >
+                          <button
+                            class="MuiButtonBase-root MuiButton-root MuiButton-text"
+                            tabindex="0"
+                            type="button"
+                          >
+                            <span
+                              class="MuiButton-label"
+                            >
+                              Previous Projects
+                            </span>
+                            <span
+                              class="MuiTouchRipple-root"
+                            />
+                          </button>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-item MuiGrid-grid-lg-12 MuiGrid-grid-xl-4"
+              >
+                <div
+                  class="react-reveal"
+                >
+                  <div
+                    class="MuiPaper-root MuiCard-root MuiPaper-elevation5 MuiPaper-rounded"
+                  >
+                    <div
+                      class="MuiBox-root MuiBox-root-16"
+                    >
+                      <button
+                        class="MuiButtonBase-root MuiCardActionArea-root"
+                        tabindex="0"
+                        type="button"
+                      >
+                        <div
+                          class="MuiCardHeader-root"
+                        >
+                          <div
+                            class="MuiCardHeader-content"
+                          >
+                            <span
+                              class="MuiTypography-root MuiCardHeader-title MuiTypography-h5 MuiTypography-alignCenter MuiTypography-displayBlock"
+                            >
+                              Research
+                            </span>
+                          </div>
+                        </div>
+                        <div
+                          class="MuiCardContent-root"
+                        >
+                          <p
+                            class="MuiTypography-root MuiTypography-body1 MuiTypography-alignCenter"
+                          >
+                            home.projects_2_description
+                          </p>
+                        </div>
+                        <span
+                          class="MuiCardActionArea-focusHighlight"
+                        />
+                        <span
+                          class="MuiTouchRipple-root"
+                        />
+                      </button>
+                      <div
+                        class="MuiBox-root MuiBox-root-18"
+                      >
+                        <a
+                          class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+                          href="/projects?projectType=2&time=upcoming"
+                        >
+                          <button
+                            class="MuiButtonBase-root MuiButton-root MuiButton-text"
+                            tabindex="0"
+                            type="button"
+                          >
+                            <span
+                              class="MuiButton-label"
+                            >
+                              Upcoming Projects
+                            </span>
+                            <span
+                              class="MuiTouchRipple-root"
+                            />
+                          </button>
+                        </a>
+                        <a
+                          class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+                          href="/projects?projectType=2&time=current"
+                        >
+                          <button
+                            class="MuiButtonBase-root MuiButton-root MuiButton-text"
+                            tabindex="0"
+                            type="button"
+                          >
+                            <span
+                              class="MuiButton-label"
+                            >
+                              Current Projects
+                            </span>
+                            <span
+                              class="MuiTouchRipple-root"
+                            />
+                          </button>
+                        </a>
+                        <a
+                          class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+                          href="/projects?projectType=2&time=previous"
+                        >
+                          <button
+                            class="MuiButtonBase-root MuiButton-root MuiButton-text"
+                            tabindex="0"
+                            type="button"
+                          >
+                            <span
+                              class="MuiButton-label"
+                            >
+                              Previous Projects
+                            </span>
+                            <span
+                              class="MuiTouchRipple-root"
+                            />
+                          </button>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiBox-root MuiBox-root-20"
+          >
+            <div
+              class="react-reveal"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1"
+              >
+                To see exactly what your VEEP experience would be like, please choose buttons below
+              </p>
+            </div>
+          </div>
+          <div
+            class="MuiBox-root MuiBox-root-22"
+          >
+            <div
+              class="react-reveal"
+            >
+              <div
+                class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-12 MuiGrid-grid-lg-7"
+                >
+                  <div
+                    class="MuiBox-root MuiBox-root-24"
+                  >
+                    <div
+                      class="MuiBox-root MuiBox-root-26"
+                    >
+                      <h6
+                        class="MuiTypography-root MuiTypography-h6"
+                      >
+                        Role
+                      </h6>
+                    </div>
+                    <div
+                      class="MuiBox-root MuiBox-root-28"
+                    >
+                      <div
+                        class="MuiBox-root MuiBox-root-30"
+                      >
+                        <button
+                          class="MuiButtonBase-root MuiButton-root MuiButton-contained"
+                          tabindex="0"
+                          type="button"
+                        >
+                          <span
+                            class="MuiButton-label"
+                          >
+                            Student
+                          </span>
+                          <span
+                            class="MuiTouchRipple-root"
+                          />
+                        </button>
+                      </div>
+                      <div
+                        class="MuiBox-root MuiBox-root-32"
+                      >
+                        <button
+                          class="MuiButtonBase-root MuiButton-root MuiButton-outlined"
+                          tabindex="0"
+                          type="button"
+                        >
+                          <span
+                            class="MuiButton-label"
+                          >
+                            Client
+                          </span>
+                          <span
+                            class="MuiTouchRipple-root"
+                          />
+                        </button>
+                      </div>
+                      <div
+                        class="MuiBox-root MuiBox-root-34"
+                      >
+                        <button
+                          class="MuiButtonBase-root MuiButton-root MuiButton-outlined"
+                          tabindex="0"
+                          type="button"
+                        >
+                          <span
+                            class="MuiButton-label"
+                          >
+                            Third Party
+                          </span>
+                          <span
+                            class="MuiTouchRipple-root"
+                          />
+                        </button>
+                      </div>
+                      <div
+                        class="MuiBox-root MuiBox-root-36"
+                      >
+                        <button
+                          class="MuiButtonBase-root MuiButton-root MuiButton-outlined"
+                          tabindex="0"
+                          type="button"
+                        >
+                          <span
+                            class="MuiButton-label"
+                          >
+                            Project Manager
+                          </span>
+                          <span
+                            class="MuiTouchRipple-root"
+                          />
+                        </button>
+                      </div>
+                      <div
+                        class="MuiBox-root MuiBox-root-38"
+                      >
+                        <button
+                          class="MuiButtonBase-root MuiButton-root MuiButton-outlined"
+                          tabindex="0"
+                          type="button"
+                        >
+                          <span
+                            class="MuiButton-label"
+                          >
+                            Executive
+                          </span>
+                          <span
+                            class="MuiTouchRipple-root"
+                          />
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="MuiBox-root MuiBox-root-40"
+                  >
+                    <div
+                      class="MuiBox-root MuiBox-root-42"
+                    >
+                      <h6
+                        class="MuiTypography-root MuiTypography-h6"
+                      >
+                        Project Type
+                      </h6>
+                    </div>
+                    <div
+                      class="MuiBox-root MuiBox-root-44"
+                    >
+                      <div
+                        class="MuiBox-root MuiBox-root-46"
+                      >
+                        <button
+                          class="MuiButtonBase-root MuiButton-root MuiButton-contained"
+                          tabindex="0"
+                          type="button"
+                        >
+                          <span
+                            class="MuiButton-label"
+                          >
+                            Community
+                          </span>
+                          <span
+                            class="MuiTouchRipple-root"
+                          />
+                        </button>
+                      </div>
+                      <div
+                        class="MuiBox-root MuiBox-root-48"
+                      >
+                        <button
+                          class="MuiButtonBase-root MuiButton-root MuiButton-outlined"
+                          tabindex="0"
+                          type="button"
+                        >
+                          <span
+                            class="MuiButton-label"
+                          >
+                            Campus Clubs
+                          </span>
+                          <span
+                            class="MuiTouchRipple-root"
+                          />
+                        </button>
+                      </div>
+                      <div
+                        class="MuiBox-root MuiBox-root-50"
+                      >
+                        <button
+                          class="MuiButtonBase-root MuiButton-root MuiButton-outlined"
+                          tabindex="0"
+                          type="button"
+                        >
+                          <span
+                            class="MuiButton-label"
+                          >
+                            Research
+                          </span>
+                          <span
+                            class="MuiTouchRipple-root"
+                          />
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-lg-5"
+                >
+                  <div
+                    class="MuiBox-root MuiBox-root-52"
+                  >
+                    This is where all the "you are a ..." and "through this project you will develop..." To save on space we could use Icons for a lot of the technical skills
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiBox-root MuiBox-root-54"
+          >
+            <div
+              class="react-reveal"
+            >
+              <div
+                class="MuiPaper-root MuiStepper-root MuiStepper-horizontal MuiStepper-alternativeLabel MuiPaper-elevation0"
+              >
+                <div
+                  class="MuiStep-root MuiStep-horizontal MuiStep-alternativeLabel"
+                >
+                  <span
+                    class="MuiStepLabel-root MuiStepLabel-horizontal MuiStepLabel-alternativeLabel"
+                  >
+                    <span
+                      class="MuiStepLabel-iconContainer MuiStepLabel-alternativeLabel"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root MuiStepIcon-root MuiStepIcon-active"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <circle
+                          cx="12"
+                          cy="12"
+                          r="12"
+                        />
+                        <text
+                          class="MuiStepIcon-text"
+                          text-anchor="middle"
+                          x="12"
+                          y="16"
+                        >
+                          1
+                        </text>
+                      </svg>
+                    </span>
+                    <span
+                      class="MuiStepLabel-labelContainer"
+                    >
+                      <span
+                        class="MuiTypography-root MuiStepLabel-label MuiStepLabel-alternativeLabel MuiStepLabel-active MuiTypography-body2 MuiTypography-displayBlock"
+                      >
+                        Choose Project
+                      </span>
+                    </span>
+                  </span>
+                </div>
+                <div
+                  class="MuiStep-root MuiStep-horizontal MuiStep-alternativeLabel"
+                >
+                  <div
+                    class="MuiStepConnector-root MuiStepConnector-horizontal MuiStepConnector-alternativeLabel Mui-disabled"
+                  >
+                    <span
+                      class="MuiStepConnector-line MuiStepConnector-lineHorizontal"
+                    />
+                  </div>
+                  <span
+                    class="MuiStepLabel-root MuiStepLabel-horizontal Mui-disabled MuiStepLabel-alternativeLabel"
+                  >
+                    <span
+                      class="MuiStepLabel-iconContainer MuiStepLabel-alternativeLabel"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root MuiStepIcon-root"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <circle
+                          cx="12"
+                          cy="12"
+                          r="12"
+                        />
+                        <text
+                          class="MuiStepIcon-text"
+                          text-anchor="middle"
+                          x="12"
+                          y="16"
+                        >
+                          2
+                        </text>
+                      </svg>
+                    </span>
+                    <span
+                      class="MuiStepLabel-labelContainer"
+                    >
+                      <span
+                        class="MuiTypography-root MuiStepLabel-label MuiStepLabel-alternativeLabel MuiTypography-body2 MuiTypography-displayBlock"
+                      >
+                        Apply
+                      </span>
+                    </span>
+                  </span>
+                </div>
+                <div
+                  class="MuiStep-root MuiStep-horizontal MuiStep-alternativeLabel"
+                >
+                  <div
+                    class="MuiStepConnector-root MuiStepConnector-horizontal MuiStepConnector-alternativeLabel Mui-disabled"
+                  >
+                    <span
+                      class="MuiStepConnector-line MuiStepConnector-lineHorizontal"
+                    />
+                  </div>
+                  <span
+                    class="MuiStepLabel-root MuiStepLabel-horizontal Mui-disabled MuiStepLabel-alternativeLabel"
+                  >
+                    <span
+                      class="MuiStepLabel-iconContainer MuiStepLabel-alternativeLabel"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root MuiStepIcon-root"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <circle
+                          cx="12"
+                          cy="12"
+                          r="12"
+                        />
+                        <text
+                          class="MuiStepIcon-text"
+                          text-anchor="middle"
+                          x="12"
+                          y="16"
+                        >
+                          3
+                        </text>
+                      </svg>
+                    </span>
+                    <span
+                      class="MuiStepLabel-labelContainer"
+                    >
+                      <span
+                        class="MuiTypography-root MuiStepLabel-label MuiStepLabel-alternativeLabel MuiTypography-body2 MuiTypography-displayBlock"
+                      >
+                        Establish Team
+                      </span>
+                    </span>
+                  </span>
+                </div>
+                <div
+                  class="MuiStep-root MuiStep-horizontal MuiStep-alternativeLabel"
+                >
+                  <div
+                    class="MuiStepConnector-root MuiStepConnector-horizontal MuiStepConnector-alternativeLabel Mui-disabled"
+                  >
+                    <span
+                      class="MuiStepConnector-line MuiStepConnector-lineHorizontal"
+                    />
+                  </div>
+                  <span
+                    class="MuiStepLabel-root MuiStepLabel-horizontal Mui-disabled MuiStepLabel-alternativeLabel"
+                  >
+                    <span
+                      class="MuiStepLabel-iconContainer MuiStepLabel-alternativeLabel"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root MuiStepIcon-root"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <circle
+                          cx="12"
+                          cy="12"
+                          r="12"
+                        />
+                        <text
+                          class="MuiStepIcon-text"
+                          text-anchor="middle"
+                          x="12"
+                          y="16"
+                        >
+                          4
+                        </text>
+                      </svg>
+                    </span>
+                    <span
+                      class="MuiStepLabel-labelContainer"
+                    >
+                      <span
+                        class="MuiTypography-root MuiStepLabel-label MuiStepLabel-alternativeLabel MuiTypography-body2 MuiTypography-displayBlock"
+                      >
+                        Begin Work!
+                      </span>
+                    </span>
+                  </span>
+                </div>
+                <div
+                  class="MuiStep-root MuiStep-horizontal MuiStep-alternativeLabel"
+                >
+                  <div
+                    class="MuiStepConnector-root MuiStepConnector-horizontal MuiStepConnector-alternativeLabel Mui-disabled"
+                  >
+                    <span
+                      class="MuiStepConnector-line MuiStepConnector-lineHorizontal"
+                    />
+                  </div>
+                  <span
+                    class="MuiStepLabel-root MuiStepLabel-horizontal Mui-disabled MuiStepLabel-alternativeLabel"
+                  >
+                    <span
+                      class="MuiStepLabel-iconContainer MuiStepLabel-alternativeLabel"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root MuiStepIcon-root"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <circle
+                          cx="12"
+                          cy="12"
+                          r="12"
+                        />
+                        <text
+                          class="MuiStepIcon-text"
+                          text-anchor="middle"
+                          x="12"
+                          y="16"
+                        >
+                          5
+                        </text>
+                      </svg>
+                    </span>
+                    <span
+                      class="MuiStepLabel-labelContainer"
+                    >
+                      <span
+                        class="MuiTypography-root MuiStepLabel-label MuiStepLabel-alternativeLabel MuiTypography-body2 MuiTypography-displayBlock"
+                      >
+                        Mid-Year Design Review
+                      </span>
+                    </span>
+                  </span>
+                </div>
+                <div
+                  class="MuiStep-root MuiStep-horizontal MuiStep-alternativeLabel"
+                >
+                  <div
+                    class="MuiStepConnector-root MuiStepConnector-horizontal MuiStepConnector-alternativeLabel Mui-disabled"
+                  >
+                    <span
+                      class="MuiStepConnector-line MuiStepConnector-lineHorizontal"
+                    />
+                  </div>
+                  <span
+                    class="MuiStepLabel-root MuiStepLabel-horizontal Mui-disabled MuiStepLabel-alternativeLabel"
+                  >
+                    <span
+                      class="MuiStepLabel-iconContainer MuiStepLabel-alternativeLabel"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root MuiStepIcon-root"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <circle
+                          cx="12"
+                          cy="12"
+                          r="12"
+                        />
+                        <text
+                          class="MuiStepIcon-text"
+                          text-anchor="middle"
+                          x="12"
+                          y="16"
+                        >
+                          6
+                        </text>
+                      </svg>
+                    </span>
+                    <span
+                      class="MuiStepLabel-labelContainer"
+                    >
+                      <span
+                        class="MuiTypography-root MuiStepLabel-label MuiStepLabel-alternativeLabel MuiTypography-body2 MuiTypography-displayBlock"
+                      >
+                        Year-End Showcase
+                      </span>
+                    </span>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div
+              class="react-reveal"
+            >
+              <div
+                class="MuiBox-root MuiBox-root-56"
+              >
+                <div
+                  class="MuiPaper-root MuiCard-root MuiPaper-elevation5 MuiPaper-rounded"
+                >
+                  <div
+                    class="MuiBox-root MuiBox-root-58"
+                  >
+                    <button
+                      class="MuiButtonBase-root MuiIconButton-root Mui-disabled Mui-disabled"
+                      disabled=""
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        class="MuiIconButton-label"
+                      >
+                        <svg
+                          fill="none"
+                          height="40"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          viewBox="0 0 24 24"
+                          width="40"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <polyline
+                            points="15 18 9 12 15 6"
+                          />
+                        </svg>
+                      </span>
+                    </button>
+                    <div
+                      class="react-reveal"
+                    >
+                      <div
+                        class="MuiCardContent-root"
+                      >
+                        <h6
+                          class="MuiTypography-root MuiTypography-h6"
+                        >
+                          Important Dates: August-September
+                        </h6>
+                        <br />
+                        <p
+                          class="MuiTypography-root MuiTypography-body1"
+                        >
+                          Project opportunities will be posted on the website and all social media accounts! Read up and see which ones would be the best fit for your goals.
+                        </p>
+                        <br />
+                        <div
+                          class="MuiBox-root MuiBox-root-60"
+                        >
+                          <a
+                            class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+                            href="/upcoming-projects?projectType=0&userType=0"
+                          >
+                            <button
+                              class="MuiButtonBase-root MuiButton-root MuiButton-text"
+                              tabindex="0"
+                              type="button"
+                            >
+                              <span
+                                class="MuiButton-label"
+                              >
+                                Upcoming Projects
+                              </span>
+                              <span
+                                class="MuiTouchRipple-root"
+                              />
+                            </button>
+                          </a>
+                          <a
+                            class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+                            href="/current-projects?projectType=0&userType=0"
+                          >
+                            <button
+                              class="MuiButtonBase-root MuiButton-root MuiButton-text"
+                              tabindex="0"
+                              type="button"
+                            >
+                              <span
+                                class="MuiButton-label"
+                              >
+                                Current Projects
+                              </span>
+                              <span
+                                class="MuiTouchRipple-root"
+                              />
+                            </button>
+                          </a>
+                          <a
+                            class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+                            href="/past-projects?projectType=0&userType=0"
+                          >
+                            <button
+                              class="MuiButtonBase-root MuiButton-root MuiButton-text"
+                              tabindex="0"
+                              type="button"
+                            >
+                              <span
+                                class="MuiButton-label"
+                              >
+                                Past Projects
+                              </span>
+                              <span
+                                class="MuiTouchRipple-root"
+                              />
+                            </button>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <button
+                      class="MuiButtonBase-root MuiIconButton-root"
+                      tabindex="0"
+                      type="button"
+                    >
+                      <span
+                        class="MuiIconButton-label"
+                      >
+                        <svg
+                          fill="none"
+                          height="40"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          viewBox="0 0 24 24"
+                          width="40"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <polyline
+                            points="9 18 15 12 9 6"
+                          />
+                        </svg>
+                      </span>
+                      <span
+                        class="MuiTouchRipple-root"
+                      />
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-1 MuiGrid-grid-lg-2"
+    />
+  </div>
+</div>
+`;

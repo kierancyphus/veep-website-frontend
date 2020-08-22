@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProjectTypeCard renders without errors 1`] = `
+<div>
+  <div
+    class="MuiPaper-root MuiCard-root MuiPaper-elevation5 MuiPaper-rounded"
+  >
+    <div
+      class="MuiBox-root MuiBox-root-2"
+    >
+      <button
+        class="MuiButtonBase-root MuiCardActionArea-root"
+        tabindex="0"
+        type="button"
+      >
+        <div
+          class="MuiCardHeader-root"
+        >
+          <div
+            class="MuiCardHeader-content"
+          >
+            <span
+              class="MuiTypography-root MuiCardHeader-title MuiTypography-h5 MuiTypography-alignCenter MuiTypography-displayBlock"
+            >
+              title
+            </span>
+          </div>
+        </div>
+        <div
+          class="MuiCardContent-root"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body1 MuiTypography-alignCenter"
+          >
+            description
+          </p>
+        </div>
+        <span
+          class="MuiCardActionArea-focusHighlight"
+        />
+        <span
+          class="MuiTouchRipple-root"
+        />
+      </button>
+      <div
+        class="MuiBox-root MuiBox-root-4"
+      >
+        <a
+          class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+          href="/projects?projectType=0&time=button"
+        >
+          <button
+            class="MuiButtonBase-root MuiButton-root MuiButton-text"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiButton-label"
+            >
+              button
+            </span>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;

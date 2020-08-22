@@ -6,16 +6,21 @@
  * contain code that should be seen on all pages. (e.g. navigation bar)
  */
 
-import * as React from 'react'
+import React, { FC } from 'react'
 import { Helmet } from 'react-helmet-async'
 import { Switch, Route, BrowserRouter } from 'react-router-dom'
 
 import { GlobalStyle } from 'styles/global-styles'
 
-import { HomePage } from './containers/HomePage/Loadable'
-import { NotFoundPage } from './components/NotFoundPage/Loadable'
+import { NavBar } from './containers/NavBar/NavBar'
+import { Home } from './containers/Home/Home'
+import { Test } from './containers/Test/Test'
+import { Projects } from './containers/Projects/Projects'
+import { AboutUs } from './containers/AboutUs/AboutUs'
+import { Teams } from './containers/Teams/Teams'
+import { Events } from './containers/Events/Events'
 
-export function App() {
+export const App: FC = () => {
   return (
     <BrowserRouter>
       <Helmet
@@ -25,9 +30,26 @@ export function App() {
         <meta name="description" content="A React Boilerplate application" />
       </Helmet>
 
+      <NavBar />
       <Switch>
-        <Route exact path="/" component={HomePage} />
-        <Route component={NotFoundPage} />
+        <Route path="/" exact>
+          <Home />
+        </Route>
+        <Route path="/projects">
+          <Projects />
+        </Route>
+        <Route path="/teams">
+          <Teams />
+        </Route>
+        <Route path="/events">
+          <Events />
+        </Route>
+        <Route path="/test">
+          <Test />
+        </Route>
+        <Route path="/about-us">
+          <AboutUs />
+        </Route>
       </Switch>
       <GlobalStyle />
     </BrowserRouter>

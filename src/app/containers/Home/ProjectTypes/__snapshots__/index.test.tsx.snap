@@ -1,0 +1,335 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProjectTypes renders without errors 1`] = `
+<div>
+  <div
+    class="MuiBox-root MuiBox-root-2"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3 MuiGrid-justify-xs-center"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-lg-12 MuiGrid-grid-xl-4"
+      >
+        <div
+          class="react-reveal"
+        >
+          <div
+            class="MuiPaper-root MuiCard-root MuiPaper-elevation5 MuiPaper-rounded"
+          >
+            <div
+              class="MuiBox-root MuiBox-root-4"
+            >
+              <button
+                class="MuiButtonBase-root MuiCardActionArea-root"
+                tabindex="0"
+                type="button"
+              >
+                <div
+                  class="MuiCardHeader-root"
+                >
+                  <div
+                    class="MuiCardHeader-content"
+                  >
+                    <span
+                      class="MuiTypography-root MuiCardHeader-title MuiTypography-h5 MuiTypography-alignCenter MuiTypography-displayBlock"
+                    >
+                      string
+                    </span>
+                  </div>
+                </div>
+                <div
+                  class="MuiCardContent-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 MuiTypography-alignCenter"
+                  >
+                    home.projects_0_description
+                  </p>
+                </div>
+                <span
+                  class="MuiCardActionArea-focusHighlight"
+                />
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+              <div
+                class="MuiBox-root MuiBox-root-6"
+              >
+                <a
+                  class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+                  href="/projects?projectType=0&time=upcoming"
+                >
+                  <button
+                    class="MuiButtonBase-root MuiButton-root MuiButton-text"
+                    tabindex="0"
+                    type="button"
+                  >
+                    <span
+                      class="MuiButton-label"
+                    >
+                      Upcoming Projects
+                    </span>
+                    <span
+                      class="MuiTouchRipple-root"
+                    />
+                  </button>
+                </a>
+                <a
+                  class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+                  href="/projects?projectType=0&time=current"
+                >
+                  <button
+                    class="MuiButtonBase-root MuiButton-root MuiButton-text"
+                    tabindex="0"
+                    type="button"
+                  >
+                    <span
+                      class="MuiButton-label"
+                    >
+                      Current Projects
+                    </span>
+                    <span
+                      class="MuiTouchRipple-root"
+                    />
+                  </button>
+                </a>
+                <a
+                  class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+                  href="/projects?projectType=0&time=previous"
+                >
+                  <button
+                    class="MuiButtonBase-root MuiButton-root MuiButton-text"
+                    tabindex="0"
+                    type="button"
+                  >
+                    <span
+                      class="MuiButton-label"
+                    >
+                      Previous Projects
+                    </span>
+                    <span
+                      class="MuiTouchRipple-root"
+                    />
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-lg-12 MuiGrid-grid-xl-4"
+      >
+        <div
+          class="react-reveal"
+        >
+          <div
+            class="MuiPaper-root MuiCard-root MuiPaper-elevation5 MuiPaper-rounded"
+          >
+            <div
+              class="MuiBox-root MuiBox-root-8"
+            >
+              <button
+                class="MuiButtonBase-root MuiCardActionArea-root"
+                tabindex="0"
+                type="button"
+              >
+                <div
+                  class="MuiCardHeader-root"
+                >
+                  <div
+                    class="MuiCardHeader-content"
+                  />
+                </div>
+                <div
+                  class="MuiCardContent-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 MuiTypography-alignCenter"
+                  >
+                    home.projects_1_description
+                  </p>
+                </div>
+                <span
+                  class="MuiCardActionArea-focusHighlight"
+                />
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+              <div
+                class="MuiBox-root MuiBox-root-10"
+              >
+                <a
+                  class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+                  href="/projects?projectType=1&time=upcoming"
+                >
+                  <button
+                    class="MuiButtonBase-root MuiButton-root MuiButton-text"
+                    tabindex="0"
+                    type="button"
+                  >
+                    <span
+                      class="MuiButton-label"
+                    >
+                      Upcoming Projects
+                    </span>
+                    <span
+                      class="MuiTouchRipple-root"
+                    />
+                  </button>
+                </a>
+                <a
+                  class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+                  href="/projects?projectType=1&time=current"
+                >
+                  <button
+                    class="MuiButtonBase-root MuiButton-root MuiButton-text"
+                    tabindex="0"
+                    type="button"
+                  >
+                    <span
+                      class="MuiButton-label"
+                    >
+                      Current Projects
+                    </span>
+                    <span
+                      class="MuiTouchRipple-root"
+                    />
+                  </button>
+                </a>
+                <a
+                  class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+                  href="/projects?projectType=1&time=previous"
+                >
+                  <button
+                    class="MuiButtonBase-root MuiButton-root MuiButton-text"
+                    tabindex="0"
+                    type="button"
+                  >
+                    <span
+                      class="MuiButton-label"
+                    >
+                      Previous Projects
+                    </span>
+                    <span
+                      class="MuiTouchRipple-root"
+                    />
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-lg-12 MuiGrid-grid-xl-4"
+      >
+        <div
+          class="react-reveal"
+        >
+          <div
+            class="MuiPaper-root MuiCard-root MuiPaper-elevation5 MuiPaper-rounded"
+          >
+            <div
+              class="MuiBox-root MuiBox-root-12"
+            >
+              <button
+                class="MuiButtonBase-root MuiCardActionArea-root"
+                tabindex="0"
+                type="button"
+              >
+                <div
+                  class="MuiCardHeader-root"
+                >
+                  <div
+                    class="MuiCardHeader-content"
+                  />
+                </div>
+                <div
+                  class="MuiCardContent-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 MuiTypography-alignCenter"
+                  >
+                    home.projects_2_description
+                  </p>
+                </div>
+                <span
+                  class="MuiCardActionArea-focusHighlight"
+                />
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+              <div
+                class="MuiBox-root MuiBox-root-14"
+              >
+                <a
+                  class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+                  href="/projects?projectType=2&time=upcoming"
+                >
+                  <button
+                    class="MuiButtonBase-root MuiButton-root MuiButton-text"
+                    tabindex="0"
+                    type="button"
+                  >
+                    <span
+                      class="MuiButton-label"
+                    >
+                      Upcoming Projects
+                    </span>
+                    <span
+                      class="MuiTouchRipple-root"
+                    />
+                  </button>
+                </a>
+                <a
+                  class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+                  href="/projects?projectType=2&time=current"
+                >
+                  <button
+                    class="MuiButtonBase-root MuiButton-root MuiButton-text"
+                    tabindex="0"
+                    type="button"
+                  >
+                    <span
+                      class="MuiButton-label"
+                    >
+                      Current Projects
+                    </span>
+                    <span
+                      class="MuiTouchRipple-root"
+                    />
+                  </button>
+                </a>
+                <a
+                  class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+                  href="/projects?projectType=2&time=previous"
+                >
+                  <button
+                    class="MuiButtonBase-root MuiButton-root MuiButton-text"
+                    tabindex="0"
+                    type="button"
+                  >
+                    <span
+                      class="MuiButton-label"
+                    >
+                      Previous Projects
+                    </span>
+                    <span
+                      class="MuiTouchRipple-root"
+                    />
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

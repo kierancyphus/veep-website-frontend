@@ -1,0 +1,450 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserJourney renders without errors 1`] = `
+<div>
+  <div
+    class="MuiBox-root MuiBox-root-2"
+  >
+    <div
+      class="react-reveal"
+    >
+      <div
+        class="MuiPaper-root MuiStepper-root MuiStepper-horizontal MuiStepper-alternativeLabel MuiPaper-elevation0"
+      >
+        <div
+          class="MuiStep-root MuiStep-horizontal MuiStep-alternativeLabel"
+        >
+          <span
+            class="MuiStepLabel-root MuiStepLabel-horizontal MuiStepLabel-alternativeLabel"
+          >
+            <span
+              class="MuiStepLabel-iconContainer MuiStepLabel-alternativeLabel"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiStepIcon-root MuiStepIcon-active"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <circle
+                  cx="12"
+                  cy="12"
+                  r="12"
+                />
+                <text
+                  class="MuiStepIcon-text"
+                  text-anchor="middle"
+                  x="12"
+                  y="16"
+                >
+                  1
+                </text>
+              </svg>
+            </span>
+            <span
+              class="MuiStepLabel-labelContainer"
+            >
+              <span
+                class="MuiTypography-root MuiStepLabel-label MuiStepLabel-alternativeLabel MuiStepLabel-active MuiTypography-body2 MuiTypography-displayBlock"
+              >
+                Choose Project
+              </span>
+            </span>
+          </span>
+        </div>
+        <div
+          class="MuiStep-root MuiStep-horizontal MuiStep-alternativeLabel"
+        >
+          <div
+            class="MuiStepConnector-root MuiStepConnector-horizontal MuiStepConnector-alternativeLabel Mui-disabled"
+          >
+            <span
+              class="MuiStepConnector-line MuiStepConnector-lineHorizontal"
+            />
+          </div>
+          <span
+            class="MuiStepLabel-root MuiStepLabel-horizontal Mui-disabled MuiStepLabel-alternativeLabel"
+          >
+            <span
+              class="MuiStepLabel-iconContainer MuiStepLabel-alternativeLabel"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiStepIcon-root"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <circle
+                  cx="12"
+                  cy="12"
+                  r="12"
+                />
+                <text
+                  class="MuiStepIcon-text"
+                  text-anchor="middle"
+                  x="12"
+                  y="16"
+                >
+                  2
+                </text>
+              </svg>
+            </span>
+            <span
+              class="MuiStepLabel-labelContainer"
+            >
+              <span
+                class="MuiTypography-root MuiStepLabel-label MuiStepLabel-alternativeLabel MuiTypography-body2 MuiTypography-displayBlock"
+              >
+                Apply
+              </span>
+            </span>
+          </span>
+        </div>
+        <div
+          class="MuiStep-root MuiStep-horizontal MuiStep-alternativeLabel"
+        >
+          <div
+            class="MuiStepConnector-root MuiStepConnector-horizontal MuiStepConnector-alternativeLabel Mui-disabled"
+          >
+            <span
+              class="MuiStepConnector-line MuiStepConnector-lineHorizontal"
+            />
+          </div>
+          <span
+            class="MuiStepLabel-root MuiStepLabel-horizontal Mui-disabled MuiStepLabel-alternativeLabel"
+          >
+            <span
+              class="MuiStepLabel-iconContainer MuiStepLabel-alternativeLabel"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiStepIcon-root"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <circle
+                  cx="12"
+                  cy="12"
+                  r="12"
+                />
+                <text
+                  class="MuiStepIcon-text"
+                  text-anchor="middle"
+                  x="12"
+                  y="16"
+                >
+                  3
+                </text>
+              </svg>
+            </span>
+            <span
+              class="MuiStepLabel-labelContainer"
+            >
+              <span
+                class="MuiTypography-root MuiStepLabel-label MuiStepLabel-alternativeLabel MuiTypography-body2 MuiTypography-displayBlock"
+              >
+                Establish Team
+              </span>
+            </span>
+          </span>
+        </div>
+        <div
+          class="MuiStep-root MuiStep-horizontal MuiStep-alternativeLabel"
+        >
+          <div
+            class="MuiStepConnector-root MuiStepConnector-horizontal MuiStepConnector-alternativeLabel Mui-disabled"
+          >
+            <span
+              class="MuiStepConnector-line MuiStepConnector-lineHorizontal"
+            />
+          </div>
+          <span
+            class="MuiStepLabel-root MuiStepLabel-horizontal Mui-disabled MuiStepLabel-alternativeLabel"
+          >
+            <span
+              class="MuiStepLabel-iconContainer MuiStepLabel-alternativeLabel"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiStepIcon-root"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <circle
+                  cx="12"
+                  cy="12"
+                  r="12"
+                />
+                <text
+                  class="MuiStepIcon-text"
+                  text-anchor="middle"
+                  x="12"
+                  y="16"
+                >
+                  4
+                </text>
+              </svg>
+            </span>
+            <span
+              class="MuiStepLabel-labelContainer"
+            >
+              <span
+                class="MuiTypography-root MuiStepLabel-label MuiStepLabel-alternativeLabel MuiTypography-body2 MuiTypography-displayBlock"
+              >
+                Begin Work!
+              </span>
+            </span>
+          </span>
+        </div>
+        <div
+          class="MuiStep-root MuiStep-horizontal MuiStep-alternativeLabel"
+        >
+          <div
+            class="MuiStepConnector-root MuiStepConnector-horizontal MuiStepConnector-alternativeLabel Mui-disabled"
+          >
+            <span
+              class="MuiStepConnector-line MuiStepConnector-lineHorizontal"
+            />
+          </div>
+          <span
+            class="MuiStepLabel-root MuiStepLabel-horizontal Mui-disabled MuiStepLabel-alternativeLabel"
+          >
+            <span
+              class="MuiStepLabel-iconContainer MuiStepLabel-alternativeLabel"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiStepIcon-root"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <circle
+                  cx="12"
+                  cy="12"
+                  r="12"
+                />
+                <text
+                  class="MuiStepIcon-text"
+                  text-anchor="middle"
+                  x="12"
+                  y="16"
+                >
+                  5
+                </text>
+              </svg>
+            </span>
+            <span
+              class="MuiStepLabel-labelContainer"
+            >
+              <span
+                class="MuiTypography-root MuiStepLabel-label MuiStepLabel-alternativeLabel MuiTypography-body2 MuiTypography-displayBlock"
+              >
+                Mid-Year Design Review
+              </span>
+            </span>
+          </span>
+        </div>
+        <div
+          class="MuiStep-root MuiStep-horizontal MuiStep-alternativeLabel"
+        >
+          <div
+            class="MuiStepConnector-root MuiStepConnector-horizontal MuiStepConnector-alternativeLabel Mui-disabled"
+          >
+            <span
+              class="MuiStepConnector-line MuiStepConnector-lineHorizontal"
+            />
+          </div>
+          <span
+            class="MuiStepLabel-root MuiStepLabel-horizontal Mui-disabled MuiStepLabel-alternativeLabel"
+          >
+            <span
+              class="MuiStepLabel-iconContainer MuiStepLabel-alternativeLabel"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiStepIcon-root"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <circle
+                  cx="12"
+                  cy="12"
+                  r="12"
+                />
+                <text
+                  class="MuiStepIcon-text"
+                  text-anchor="middle"
+                  x="12"
+                  y="16"
+                >
+                  6
+                </text>
+              </svg>
+            </span>
+            <span
+              class="MuiStepLabel-labelContainer"
+            >
+              <span
+                class="MuiTypography-root MuiStepLabel-label MuiStepLabel-alternativeLabel MuiTypography-body2 MuiTypography-displayBlock"
+              >
+                Year-End Showcase
+              </span>
+            </span>
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      class="react-reveal"
+    >
+      <div
+        class="MuiBox-root MuiBox-root-4"
+      >
+        <div
+          class="MuiPaper-root MuiCard-root MuiPaper-elevation5 MuiPaper-rounded"
+        >
+          <div
+            class="MuiBox-root MuiBox-root-6"
+          >
+            <button
+              class="MuiButtonBase-root MuiIconButton-root Mui-disabled Mui-disabled"
+              disabled=""
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                class="MuiIconButton-label"
+              >
+                <svg
+                  fill="none"
+                  height="40"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  width="40"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <polyline
+                    points="15 18 9 12 15 6"
+                  />
+                </svg>
+              </span>
+            </button>
+            <div
+              class="react-reveal"
+            >
+              <div
+                class="MuiCardContent-root"
+              >
+                <h6
+                  class="MuiTypography-root MuiTypography-h6"
+                >
+                  Important Dates: August-September
+                </h6>
+                <br />
+                <p
+                  class="MuiTypography-root MuiTypography-body1"
+                >
+                  Project opportunities will be posted on the website and all social media accounts! Read up and see which ones would be the best fit for your goals.
+                </p>
+                <br />
+                <div
+                  class="MuiBox-root MuiBox-root-8"
+                >
+                  <a
+                    class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+                    href="/upcoming-projects?projectType=0&userType=0"
+                  >
+                    <button
+                      class="MuiButtonBase-root MuiButton-root MuiButton-text"
+                      tabindex="0"
+                      type="button"
+                    >
+                      <span
+                        class="MuiButton-label"
+                      >
+                        Upcoming Projects
+                      </span>
+                      <span
+                        class="MuiTouchRipple-root"
+                      />
+                    </button>
+                  </a>
+                  <a
+                    class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+                    href="/current-projects?projectType=0&userType=0"
+                  >
+                    <button
+                      class="MuiButtonBase-root MuiButton-root MuiButton-text"
+                      tabindex="0"
+                      type="button"
+                    >
+                      <span
+                        class="MuiButton-label"
+                      >
+                        Current Projects
+                      </span>
+                      <span
+                        class="MuiTouchRipple-root"
+                      />
+                    </button>
+                  </a>
+                  <a
+                    class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+                    href="/past-projects?projectType=0&userType=0"
+                  >
+                    <button
+                      class="MuiButtonBase-root MuiButton-root MuiButton-text"
+                      tabindex="0"
+                      type="button"
+                    >
+                      <span
+                        class="MuiButton-label"
+                      >
+                        Past Projects
+                      </span>
+                      <span
+                        class="MuiTouchRipple-root"
+                      />
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <button
+              class="MuiButtonBase-root MuiIconButton-root"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="MuiIconButton-label"
+              >
+                <svg
+                  fill="none"
+                  height="40"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  width="40"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <polyline
+                    points="9 18 15 12 9 6"
+                  />
+                </svg>
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
