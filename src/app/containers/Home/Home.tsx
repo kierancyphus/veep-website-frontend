@@ -1,4 +1,4 @@
-import React, { FC, useState } from 'react'
+import React, { Children, FC, useState } from 'react'
 import { Grid, Card, CardContent, Typography, Box } from '@material-ui/core'
 import { useTranslation } from 'react-i18next'
 import { steps } from './resources'
@@ -9,36 +9,39 @@ import { UserJourney } from './UserJourney'
 import { ChooseRoleAndProjectType } from './ChooseRoleAndProjectType'
 import { BoxFade } from '../Common/BoxFade/BoxFade'
 import { useHistory } from 'react-router-dom'
-// import * as photo from '../../assets/parallax.jpg'
+import photo from 'assets/parallax.jpg'
+import { Parallax, Background } from 'react-parallax'
 
 /**
  * These numbers only work on my computer - NOT for different screen sizes
  * Have to go and look at the docs to figure out what the strength attribute is doing
  */
-// const ParallaxComp: FC = () => {
-//   const words = ['Pretentious.', 'Stylish.', 'White space.']
-//   return (
-//     <Parallax blur={1000} strength={1000}>
-//       <Background className="custom-bg">
-//         <BoxFade height="60vh" marginY="72vh" down cascade>
-//           <div>
-//             {words.map((word) => (
-//               <Box
-//                 display="flex"
-//                 justifyContent="center"
-//                 marginY={5}
-//                 key={word}
-//               >
-//                 <Typography variant="h1">{word}</Typography>
-//               </Box>
-//             ))}
-//           </div>
-//         </BoxFade>
-//       </Background>
-//       <div style={{ height: '100vh', width: '100vw' }}></div>
-//     </Parallax>
-//   )
-// }
+const ParallaxComp: FC = () => {
+  const words = ['Pretentious.', 'Stylish.', 'White space.']
+  return (
+    <Parallax blur={1000} strength={1000}>
+      <Background className="custom-bg">
+        <img src={photo} alt="" />
+        <BoxFade height="60vh" marginY="72vh" down cascade>
+          <div>
+            {words.map(word => (
+              <Box
+                display="flex"
+                justifyContent="center"
+                marginY={5}
+                key={word}
+              >
+                <Typography variant="h1">{word}</Typography>
+              </Box>
+            ))}
+          </div>
+        </BoxFade>
+      </Background>
+      <div style={{ height: '100vh', width: '100vw' }}></div>
+      {Children}
+    </Parallax>
+  )
+}
 
 export const Home: FC = () => {
   const [userType, setUserType] = useState<Users>(Users.STUDENT)

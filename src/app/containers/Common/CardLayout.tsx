@@ -1,4 +1,4 @@
-import React, { FC, ReactType } from 'react'
+import React, { ElementType, FC } from 'react'
 import { Grid } from '@material-ui/core'
 
 interface WithKey {
@@ -7,7 +7,7 @@ interface WithKey {
 
 export interface CardLayoutProps {
   cards: (any & WithKey)[]
-  Element: ReactType
+  Element: ElementType
 }
 
 export const CardLayout: FC<CardLayoutProps> = ({ cards, Element }) => {
