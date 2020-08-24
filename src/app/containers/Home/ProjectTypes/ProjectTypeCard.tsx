@@ -49,17 +49,10 @@ export const ProjectTypeCard: FC<ProjectTypeCardProps> = ({
           </Typography>
         </CardContent>
       </CardActionArea>
-
-      <Box display="flex" justifyContent="space-around">
-        {Object.entries(links).map(([text, href]) => (
-          <Link
-            component={RouterLink}
-            to={getLink(projectType, text)}
-            key={`project-card-${text}-${href}`}
-          >
-            <Button>{text}</Button>
-          </Link>
-        ))}
+      <Box display="flex" justifyContent="center" width="100%">
+        <Link component={RouterLink} to="/projects" style={{ width: '100%' }}>
+          <Button fullWidth>View Projects</Button>
+        </Link>
       </Box>
     </Box>
   </Card>

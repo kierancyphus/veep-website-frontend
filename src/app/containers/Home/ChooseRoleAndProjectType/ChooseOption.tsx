@@ -14,7 +14,7 @@ export const ChooseOption: FC<ChooseOptionProps> = ({
   setValue,
   toStringMap,
 }) => (
-  <Box marginY={5}>
+  <Box marginBottom={5}>
     <Box display="flex" justifyContent="center">
       <Typography variant="h6">{title}</Typography>
     </Box>
@@ -29,6 +29,7 @@ export const ChooseOption: FC<ChooseOptionProps> = ({
           <Button
             onClick={() => setValue(parseInt(type))}
             variant={value === parseInt(type) ? 'contained' : 'outlined'}
+            color="primary"
           >
             {text}
           </Button>

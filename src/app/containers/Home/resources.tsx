@@ -23,9 +23,9 @@ export const steps: Steps = {
         'August-September',
         'Project opportunities will be posted on the website and all social media accounts! Read up and see which ones would be the best fit for your goals.',
         {
-          'Upcoming Projects': '/upcoming-projects',
-          'Current Projects': '/current-projects',
-          'Past Projects': '/past-projects',
+          'Upcoming Projects': '/projects',
+          'Current Projects': '/projects',
+          'Previous Projects': '/projects',
         },
       ],
       Apply: [

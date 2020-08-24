@@ -46,16 +46,19 @@ export const UserStepContent: FC<UserStepContentProps> = ({
   return (
     <Box display="flex" justifyContent="center">
       <Card elevation={5}>
-        <Box display="flex" justifyContent="space-between">
-          <IconButton
-            disabled={activeStep === 0}
-            onClick={() => {
-              setStep(step => step - 1)
-              setDirection(Direction.LEFT)
-            }}
-          >
-            <ChevronLeft size={40} />
-          </IconButton>
+        <Box display="flex">
+          <Box display="flex" alignItems="center">
+            <IconButton
+              disabled={activeStep === 0}
+              onClick={() => {
+                setStep(step => step - 1)
+                setDirection(Direction.LEFT)
+              }}
+            >
+              <ChevronLeft size={40} />
+            </IconButton>
+          </Box>
+
           <Fade
             left={direction === Direction.LEFT}
             right={direction === Direction.RIGHT}
@@ -83,16 +86,17 @@ export const UserStepContent: FC<UserStepContentProps> = ({
               )}
             </CardContent>
           </Fade>
-
-          <IconButton
-            disabled={activeStep === length}
-            onClick={() => {
-              setStep(step => step + 1)
-              setDirection(Direction.RIGHT)
-            }}
-          >
-            <ChevronRight size={40} />
-          </IconButton>
+          <Box display="flex" alignItems="center">
+            <IconButton
+              disabled={activeStep === length}
+              onClick={() => {
+                setStep(step => step + 1)
+                setDirection(Direction.RIGHT)
+              }}
+            >
+              <ChevronRight size={40} />
+            </IconButton>
+          </Box>
         </Box>
       </Card>
     </Box>

@@ -1,5 +1,5 @@
+import { Box } from '@material-ui/core'
 import React, { FC } from 'react'
-import { useHistory, useLocation } from 'react-router-dom'
 
 // type queries = Record<string, string>
 
@@ -15,9 +15,9 @@ import { useHistory, useLocation } from 'react-router-dom'
 // }
 
 export const Test: FC = props => {
-  const history = useHistory()
-  const location = useLocation()
-  console.log('history', history)
-  console.log('location', location)
-  return <h1>hi</h1>
+  return (
+    <Box display="flex" justifyContent="center">
+      <h1>This is a test</h1>
+    </Box>
+  )
 }

@@ -19,12 +19,7 @@ export const UserJourney: FC<UserJourneyProps> = ({
   const stepInfo = Object.values(stepList)[step]
 
   return (
-    <BoxFade
-      down
-      key={`user-step-${userType}-${projectType}`}
-      marginY={2}
-      marginX={10}
-    >
+    <BoxFade down marginY={2} marginX={10}>
       <UserSteps
         userType={userType}
         projectType={projectType}
