@@ -23,6 +23,8 @@ import { configureAppStore } from 'store/configureStore'
 
 // Initialize languages
 import './locales/i18n'
+import { ThemeProvider } from '@material-ui/core'
+import theme from 'muiTheme'
 
 const store = configureAppStore()
 const MOUNT_NODE = document.getElementById('root') as HTMLElement
@@ -32,11 +34,13 @@ interface Props {
 }
 const ConnectedApp = ({ Component }: Props) => (
   <Provider store={store}>
-    <HelmetProvider>
-      <React.StrictMode>
-        <Component />
-      </React.StrictMode>
-    </HelmetProvider>
+    <ThemeProvider theme={theme}>
+      <HelmetProvider>
+        <React.StrictMode>
+          <Component />
+        </React.StrictMode>
+      </HelmetProvider>
+    </ThemeProvider>
   </Provider>
 )
 const render = (Component: typeof App) => {

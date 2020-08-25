@@ -1,6 +1,5 @@
 import React, { FC, useState, ReactNode, useEffect } from 'react'
-import { Tab, Tabs, Typography } from '@material-ui/core'
-import { BoxFade } from '../../Common/BoxFade/BoxFade'
+import { Box, Tab, Tabs, Typography } from '@material-ui/core'
 
 export interface TabsAndContentProps {
   initialTab?: number
@@ -47,9 +46,9 @@ export const TabsAndContent: FC<TabsAndContentProps> = ({
           />
         ))}
       </Tabs>
-      <BoxFade down marginY={5} key={tab}>
+      <Box marginY={5} key={tab}>
         {content[keys[tab || 0]][0] && content[keys[tab || 0]][0]}
-      </BoxFade>
+      </Box>
     </>
   )
 }
