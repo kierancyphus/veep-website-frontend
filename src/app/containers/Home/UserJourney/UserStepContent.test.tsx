@@ -12,6 +12,7 @@ describe('UserStepContent', () => {
     setStep: jest.fn(),
     projectType: 0,
     userType: 0,
+    isPhone: false,
   }
 
   it('renders without errors', () => {

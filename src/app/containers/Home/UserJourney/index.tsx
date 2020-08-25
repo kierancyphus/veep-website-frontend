@@ -5,6 +5,7 @@ import { WithProjectType } from 'types/projects'
 import { UserSteps } from './UserSteps'
 import { UserStepContent } from './UserStepContent'
 import { BoxFade } from '../../Common/BoxFade/BoxFade'
+import { useMediaQuery, useTheme } from '@material-ui/core'
 
 export type UserJourneyProps = WithUserType & WithProjectType & WithSteps
 
@@ -17,14 +18,17 @@ export const UserJourney: FC<UserJourneyProps> = ({
   const stepList = steps[userType][projectType]
   const stepKeys = Object.keys(stepList)
   const stepInfo = Object.values(stepList)[step]
+  const theme = useTheme()
+  const isPhone = useMediaQuery(theme.breakpoints.only('xs'))
 
   return (
-    <BoxFade down marginY={2} marginX={10}>
+    <BoxFade down marginY={2} marginX={isPhone ? 2 : 10}>
       <UserSteps
         userType={userType}
         projectType={projectType}
         stepListKeys={stepKeys}
         activeStep={step}
+        isPhone={isPhone}
       />
       <UserStepContent
         userType={userType}
@@ -35,6 +39,7 @@ export const UserJourney: FC<UserJourneyProps> = ({
         content={stepInfo[1] as string}
         links={stepInfo[2] as Record<string, string>}
         length={stepKeys.length - 1}
+        isPhone={isPhone}
       />
     </BoxFade>
   )

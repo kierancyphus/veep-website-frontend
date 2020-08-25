@@ -1,8 +1,9 @@
 import React, { FC } from 'react'
 import { Box, Typography, Button } from '@material-ui/core'
 import { WithSetter } from '../resources'
+import { WithPhone } from '../Home'
 
-export interface ChooseOptionProps extends WithSetter {
+export interface ChooseOptionProps extends WithSetter, WithPhone {
   title: string
   value: number
   toStringMap: Record<string, string>
@@ -13,13 +14,14 @@ export const ChooseOption: FC<ChooseOptionProps> = ({
   value,
   setValue,
   toStringMap,
+  isPhone,
 }) => (
   <Box marginBottom={5}>
     <Box display="flex" justifyContent="center">
       <Typography variant="h6">{title}</Typography>
     </Box>
     <Box
-      display="flex"
+      display={isPhone ? '' : 'flex'}
       justifyContent="center"
       alignContent="baseline"
       flexWrap="wrap"
@@ -30,6 +32,7 @@ export const ChooseOption: FC<ChooseOptionProps> = ({
             onClick={() => setValue(parseInt(type))}
             variant={value === parseInt(type) ? 'contained' : 'outlined'}
             color="primary"
+            fullWidth={isPhone}
           >
             {text}
           </Button>

@@ -8,18 +8,21 @@ import {
   Typography,
   Button,
   Link,
+  Grid,
 } from '@material-ui/core'
 import { ChevronLeft, ChevronRight } from 'react-feather'
 import { Fade } from 'react-reveal'
 import { Link as RouterLink } from 'react-router-dom'
 import { WithUserType } from 'types/user'
 import { WithProjectType } from 'types/projects'
+import { WithPhone } from '../Home'
 
 export interface UserStepContentProps
   extends WithSetStep,
     WithActiveStep,
     WithProjectType,
-    WithUserType {
+    WithUserType,
+    WithPhone {
   dates: string
   content: string
   length: number
@@ -41,6 +44,7 @@ export const UserStepContent: FC<UserStepContentProps> = ({
   length,
   projectType,
   userType,
+  isPhone,
 }) => {
   const [direction, setDirection] = useState<Direction>(Direction.NONE)
   return (
@@ -62,7 +66,6 @@ export const UserStepContent: FC<UserStepContentProps> = ({
           <Fade
             left={direction === Direction.LEFT}
             right={direction === Direction.RIGHT}
-            // key={`step-content-${activeStep}-${direction}`}
           >
             <CardContent>
               <Typography variant="h6">{`Important Dates: ${dates}`}</Typography>
@@ -71,17 +74,30 @@ export const UserStepContent: FC<UserStepContentProps> = ({
               {links && (
                 <>
                   <br />
-                  <Box display="flex" justifyContent="center">
+                  <Grid container>
                     {Object.entries(links).map(([text, href]) => (
-                      <Link
-                        component={RouterLink}
-                        to={`${href}?projectType=${projectType}&userType=${userType}`}
+                      <Grid
+                        item
                         key={`${text}-${href}`}
+                        xs={12}
+                        sm={12}
+                        md={4}
+                        lg={4}
                       >
-                        <Button key={`${text}-${href}`}>{text}</Button>
-                      </Link>
+                        <Box display="flex" justifyContent="center">
+                          <Link
+                            component={RouterLink}
+                            to={`${href}?projectType=${projectType}&userType=${userType}`}
+                            style={{ width: '100%' }}
+                          >
+                            <Button key={`${text}-${href}`} fullWidth>
+                              {text}
+                            </Button>
+                          </Link>
+                        </Box>
+                      </Grid>
                     ))}
-                  </Box>
+                  </Grid>
                 </>
               )}
             </CardContent>

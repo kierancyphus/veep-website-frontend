@@ -28,7 +28,7 @@ import ExpandMoreIcon from '@material-ui/icons/ExpandMore'
 import styled from 'styled-components'
 import { Fade } from 'react-reveal'
 
-interface WithPhone {
+export interface WithPhone {
   isPhone: boolean
 }
 interface TextSectionProps extends WithIcon, WithPhone {

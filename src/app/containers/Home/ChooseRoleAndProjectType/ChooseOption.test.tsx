@@ -12,6 +12,7 @@ describe('ChooseOption', () => {
       2: 'another test',
     },
     setValue: jest.fn(),
+    isPhone: false,
   }
 
   it('renders without errors', () => {

@@ -1,5 +1,11 @@
 import React, { FC } from 'react'
-import { Grid, Box, Typography } from '@material-ui/core'
+import {
+  Grid,
+  Box,
+  Typography,
+  useTheme,
+  useMediaQuery,
+} from '@material-ui/core'
 import { WithProjectType, WithProjectTypeSetter } from 'types/projects'
 import { WithUserType, WithUserTypeSetter } from 'types/user'
 import { ChooseOption } from './ChooseOption'
@@ -53,6 +59,9 @@ export const ChooseRoleAndProjectType: FC<ChooseRoleAndProjectTypeProps> = ({
   userTypeToStringMap,
   projectTypeToStringMap,
 }) => {
+  const theme = useTheme()
+  const isPhone = useMediaQuery(theme.breakpoints.only('xs'))
+
   return (
     <Box
       padding={5}
@@ -66,22 +75,24 @@ export const ChooseRoleAndProjectType: FC<ChooseRoleAndProjectTypeProps> = ({
             Choose.
           </Typography>
         </Box>
-        <Grid container spacing={1}>
-          <Grid item lg={7} sm={12}>
+        <Grid container>
+          <Grid item lg={7} sm={12} xs={12}>
             <ChooseOption
               title="Role"
               toStringMap={userTypeToStringMap}
               setValue={setUserType}
               value={userType}
+              isPhone={isPhone}
             />
             <ChooseOption
               title="Project Type"
               toStringMap={projectTypeToStringMap}
               setValue={setProjectType}
               value={projectType}
+              isPhone={isPhone}
             />
           </Grid>
-          <Grid item lg={5}>
+          <Grid item lg={5} sm={12}>
             <RoleAndProjectDescription
               userType={userType}
               projectType={projectType}

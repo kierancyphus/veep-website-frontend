@@ -9,6 +9,7 @@ describe('UserSteps', () => {
     userType: 0,
     projectType: 0,
     stepListKeys: Object.keys(steps),
+    isPhone: false,
   }
 
   it('renders without errors', () => {

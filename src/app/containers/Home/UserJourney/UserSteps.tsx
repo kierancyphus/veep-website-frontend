@@ -2,18 +2,14 @@ import React, { FC } from 'react'
 import { WithProjectType } from 'types/projects'
 import { WithUserType } from 'types/user'
 import { WithActiveStep } from 'types/home'
-import {
-  Stepper,
-  Step,
-  StepLabel,
-  useMediaQuery,
-  useTheme,
-} from '@material-ui/core'
+import { Stepper, Step, StepLabel, Box } from '@material-ui/core'
+import { WithPhone } from '../Home'
 
 export interface UserStepsProps
   extends WithActiveStep,
     WithUserType,
-    WithProjectType {
+    WithProjectType,
+    WithPhone {
   stepListKeys: Array<string>
 }
 
@@ -22,21 +18,21 @@ export const UserSteps: FC<UserStepsProps> = ({
   projectType,
   stepListKeys,
   activeStep,
+  isPhone,
 }) => {
-  const theme = useTheme()
-  const isPhone = useMediaQuery(theme.breakpoints.only('xs'))
-
   return (
-    <Stepper
-      alternativeLabel={!isPhone}
-      activeStep={activeStep}
-      orientation={isPhone ? 'vertical' : 'horizontal'}
-    >
-      {stepListKeys.map(step => (
-        <Step key={`${userType}-${projectType}-${step}`}>
-          <StepLabel>{step}</StepLabel>
-        </Step>
-      ))}
-    </Stepper>
+    <Box display={isPhone ? 'flex' : ''} justifyContent="center" width="100%">
+      <Stepper
+        alternativeLabel={!isPhone}
+        activeStep={activeStep}
+        orientation={isPhone ? 'vertical' : 'horizontal'}
+      >
+        {stepListKeys.map(step => (
+          <Step key={`${userType}-${projectType}-${step}`}>
+            <StepLabel>{step}</StepLabel>
+          </Step>
+        ))}
+      </Stepper>
+    </Box>
   )
 }
