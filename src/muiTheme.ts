@@ -1,6 +1,6 @@
-import { createMuiTheme, responsiveFontSizes } from '@material-ui/core'
+import { createMuiTheme, responsiveFontSizes, Theme } from '@material-ui/core'
 
-let theme = createMuiTheme()
+let theme: Theme = createMuiTheme()
 theme = responsiveFontSizes(theme)
 theme.typography.h1 = {
   ...theme.typography.h1,

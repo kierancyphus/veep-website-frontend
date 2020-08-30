@@ -27,6 +27,7 @@ import FlightTakeoffIcon from '@material-ui/icons/FlightTakeoff'
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore'
 import styled from 'styled-components'
 import { Fade } from 'react-reveal'
+import { SocialMediaRow } from './SocialMediaRow/SocialMediaRow'
 
 export interface WithPhone {
   isPhone: boolean
@@ -73,7 +74,7 @@ const IconGrid: FC<WithIcon & WithPhone> = ({ Icon, iconLeft }) => (
               alignItems="center"
               padding={4}
             >
-              <Icon style={{ fontSize: '125px' }} />
+              <Icon style={{ fontSize: '7.8rem' }} />
             </Box>
           </IconCard>
         </Box>
@@ -117,7 +118,10 @@ const TextSection: FC<TextSectionProps> = ({
           </Box>
 
           <br />
-          <Typography variant="h5" align={'justify'}>
+          <Typography
+            variant="h5"
+            align={isPhone ? undefined : iconLeft ? 'right' : 'left'}
+          >
             {content}
           </Typography>
           <Box display="flex" justifyContent="center">
@@ -140,40 +144,63 @@ const TextSection: FC<TextSectionProps> = ({
   </Fade>
 )
 
+export const TitleScreen: FC<{
+  startRef: React.RefObject<HTMLDivElement>
+}> = ({ startRef }) => {
+  const words = [
+    'Community Engagement.',
+    'Learning Opportunities.',
+    'Industry Experience.',
+  ]
+
+  return (
+    <BoxFade height="84vh" marginY="8vh" paddingX="10vw" down cascade>
+      <div>
+        {words.map(word => (
+          <Box display="flex" justifyContent="center" marginY={5} key={word}>
+            <Typography variant="h1" color="textSecondary" align="center">
+              {word}
+            </Typography>
+          </Box>
+        ))}
+        <Box display="flex" justifyContent="center" marginY={5}>
+          <Typography variant="h1" color="primary" align="center">
+            <Box fontWeight={400} letterSpacing={10}>
+              VEEP
+            </Box>
+          </Typography>
+        </Box>
+        <Fade down>
+          <SocialMediaRow />
+        </Fade>
+
+        <Box display="flex" justifyContent="center" marginTop={5}>
+          <IconButton
+            color="primary"
+            onClick={() =>
+              startRef && startRef.current
+                ? startRef.current.scrollIntoView({ behavior: 'smooth' })
+                : null
+            }
+          >
+            <ExpandMoreIcon style={{ fontSize: '75px' }} />
+          </IconButton>
+        </Box>
+      </div>
+    </BoxFade>
+  )
+}
+
 export const Home: FC = () => {
   const [userType, setUserType] = useState<Users>(Users.STUDENT)
   const [projectType, setProjectType] = useState<Projects>(Projects.COMMUNITY)
   const startRef = useRef<HTMLDivElement>(null)
   const theme = useTheme()
   const isPhone = useMediaQuery(theme.breakpoints.down('sm'))
-  const words = [
-    'Community Engagement.',
-    'Learning Opportunities.',
-    'Industry Experience.',
-  ]
+
   return (
     <>
-      <BoxFade height="60vh" marginY="20vh" paddingX="10vw" down cascade>
-        <div>
-          {words.map(word => (
-            <Box display="flex" justifyContent="center" marginY={5} key={word}>
-              <Typography variant="h1">{word}</Typography>
-            </Box>
-          ))}
-          <Box display="flex" justifyContent="center" paddingTop={3}>
-            <IconButton
-              color="primary"
-              onClick={() =>
-                startRef && startRef.current
-                  ? startRef.current.scrollIntoView({ behavior: 'smooth' })
-                  : null
-              }
-            >
-              <ExpandMoreIcon style={{ fontSize: '75px' }} />
-            </IconButton>
-          </Box>
-        </div>
-      </BoxFade>
+      <TitleScreen startRef={startRef} />
       <Grid container ref={startRef}>
         <Grid item lg={2} md={1}></Grid>
         <Grid item lg={8} md={10} sm={12} xs={12}>
