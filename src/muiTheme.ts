@@ -22,4 +22,15 @@ theme.typography.h5 = {
   },
 }
 
+theme.palette.primary = {
+  main: '#71518A',
+  light: '#A869F8',
+  dark: '#5200BB',
+  contrastText: '#000000',
+}
+
+export interface WithTheme {
+  theme: Theme
+}
+
 export default theme

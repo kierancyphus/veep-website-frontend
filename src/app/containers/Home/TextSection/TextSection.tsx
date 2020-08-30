@@ -11,10 +11,8 @@ import {
 import { Link as RouterLink } from 'react-router-dom'
 import { Fade } from 'react-reveal'
 import { IconGrid } from './IconGrid'
+import { WithPhone } from 'types/app'
 
-export interface WithPhone {
-  isPhone: boolean
-}
 interface TextSectionProps extends WithIcon, WithPhone {
   title: string
   content: string

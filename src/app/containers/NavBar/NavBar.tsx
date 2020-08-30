@@ -2,6 +2,7 @@ import React, { FC } from 'react'
 import { Link as RouterLink } from 'react-router-dom'
 import { Breadcrumbs, Link, Button, Box } from '@material-ui/core'
 import { useTranslation } from 'react-i18next'
+import LogoSmall from 'assets/logos/small.png'
 
 // Could change breadcrumbs to a styled list, but I'm not sure what material ui offers
 
@@ -10,7 +11,9 @@ export const NavBar: FC = () => {
 
   return (
     <Box display="flex" justifyContent="space-between">
-      <Box>LOGO</Box>
+      <Box>
+        <img src={LogoSmall} alt="logo" style={{ height: '4rem' }} />
+      </Box>
       <Breadcrumbs className="breadcrumbs">
         <Link component={RouterLink} to="/">
           <Button>{t('navBar.home')}</Button>

@@ -25,7 +25,9 @@ export const BasicPageContainer: FC<BasicPageContainerProps> = ({
       <Grid item lg={2} md={1} />
       <Grid item lg={8} md={10}>
         <BoxFade down margin={10}>
-          <Typography variant="h1">{title}</Typography>
+          <Typography variant="h1" color="primary">
+            {title}
+          </Typography>
         </BoxFade>
         <Box paddingX={isPhone && 2}>
           <Card elevation={5}>
