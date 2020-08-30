@@ -1,7 +1,7 @@
 import React, { ElementType, FC } from 'react'
 import { Grid, Card, Box } from '@material-ui/core'
 import styled from 'styled-components'
-import { WithPhone } from '../Home'
+import { WithPhone } from 'types/app'
 
 interface WithIcon {
   Icon?: ElementType

@@ -3,7 +3,7 @@ import { WithProjectType } from 'types/projects'
 import { WithUserType } from 'types/user'
 import { WithActiveStep } from 'types/home'
 import { Stepper, Step, StepLabel, Box } from '@material-ui/core'
-import { WithPhone } from '../Home'
+import { WithPhone } from 'types/app'
 
 export interface UserStepsProps
   extends WithActiveStep,

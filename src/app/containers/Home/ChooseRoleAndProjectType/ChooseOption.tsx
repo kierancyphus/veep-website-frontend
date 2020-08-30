@@ -1,7 +1,7 @@
 import React, { FC } from 'react'
 import { Box, Typography, Button } from '@material-ui/core'
 import { WithSetter } from '../resources'
-import { WithPhone } from '../Home'
+import { WithPhone } from 'types/app'
 
 export interface ChooseOptionProps extends WithSetter, WithPhone {
   title: string

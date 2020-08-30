@@ -15,7 +15,7 @@ import { Fade } from 'react-reveal'
 import { Link as RouterLink } from 'react-router-dom'
 import { WithUserType } from 'types/user'
 import { WithProjectType } from 'types/projects'
-import { WithPhone } from '../Home'
+import { WithPhone } from 'types/app'
 
 export interface UserStepContentProps
   extends WithSetStep,

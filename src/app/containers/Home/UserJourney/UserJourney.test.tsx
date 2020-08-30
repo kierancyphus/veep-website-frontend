@@ -1,5 +1,5 @@
 import React from 'react'
-import { UserJourney, UserJourneyProps } from './index'
+import { UserJourney, UserJourneyProps } from './UserJourney'
 import { render } from '@testing-library/react'
 import { steps } from '../resources'
 import { BrowserRouter } from 'react-router-dom'
