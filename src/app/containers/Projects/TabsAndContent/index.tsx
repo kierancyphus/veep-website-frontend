@@ -31,7 +31,7 @@ export const TabsAndContent: FC<TabsAndContentProps> = ({
   }, [setTab, initialTab, keys.length])
 
   return (
-    <>
+    <Box maxWidth="100%">
       <Tabs
         value={tab || 0}
         textColor="primary"
@@ -49,6 +49,6 @@ export const TabsAndContent: FC<TabsAndContentProps> = ({
       <Box marginY={5} key={tab}>
         {content[keys[tab || 0]][0] && content[keys[tab || 0]][0]}
       </Box>
-    </>
+    </Box>
   )
 }

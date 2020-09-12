@@ -4,8 +4,10 @@ import { ProjectCard, ProjectCardProps } from '../ProjectCard'
 import { BoxFade } from '../../Common/BoxFade/BoxFade'
 import { CardLayout } from '../../Common/CardLayout'
 
+export type ProjectMap = Record<string | number, ProjectCardProps[]>
+
 export interface CardLayoutContainerProps {
-  cardLayoutData: Record<string | number, ProjectCardProps[]>
+  cardLayoutData: ProjectMap
 }
 
 export const CardLayoutContainer: FC<CardLayoutContainerProps> = ({

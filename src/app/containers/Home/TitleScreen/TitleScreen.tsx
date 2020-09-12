@@ -1,5 +1,5 @@
 import React, { FC } from 'react'
-import { Typography, Box, IconButton, useTheme } from '@material-ui/core'
+import { Typography, Box, IconButton } from '@material-ui/core'
 import { BoxFade } from 'app/containers/Common/BoxFade/BoxFade'
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore'
 import { SocialMediaRow } from './SocialMediaRow'
@@ -17,7 +17,7 @@ export const TitleScreen: FC<TitleScreenProps> = ({ startRef, isPhone }) => {
     'Industry Experience.',
   ]
 
-  const theme = useTheme()
+  // const theme = useTheme()
 
   return (
     <BoxFade height="84vh" marginY="8vh" paddingX="10vw" down cascade>
@@ -28,11 +28,6 @@ export const TitleScreen: FC<TitleScreenProps> = ({ startRef, isPhone }) => {
             alt="logo"
             style={{ height: isPhone ? '6rem' : '10rem' }}
           />
-          {/* <Typography variant="h1" color="primary" align="center">
-            <Box fontWeight={400} letterSpacing={10}>
-              VEEP
-            </Box>
-          </Typography> */}
         </Box>
         {words.map(word => (
           <Box

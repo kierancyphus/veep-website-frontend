@@ -13,6 +13,7 @@ export const ExecProfile: FC<ExecProfileProps> = ({
   degree,
 }) => (
   <Card>
-    <CardHeader title={name} subheader={`${veepRole}; ${degree}`} />
+    <CardHeader title={name} subheader={`${veepRole}`} />
+    <CardHeader subheader={degree} />
   </Card>
 )

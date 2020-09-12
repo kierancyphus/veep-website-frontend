@@ -4,14 +4,17 @@ import {
   Typography,
   Card,
   CardHeader,
-  CardContent,
   Button,
   Box,
   IconButton,
   Paper,
+  Avatar,
+  Divider,
 } from '@material-ui/core'
 import { ChevronDown, ChevronUp } from 'react-feather'
 import { WithKey } from 'types/projects'
+import { techLogoMap, techToWebsiteMap } from 'assets/techLogos'
+import { Tech } from 'types/projects'
 
 /**
  * We could assign a publicId to each of the projects in the database,
@@ -21,19 +24,23 @@ import { WithKey } from 'types/projects'
 export interface ProjectCardProps extends WithKey {
   orgName: string
   projectTitle: string
+  techStack: Tech[]
   description: string
   roles?: string[]
   teamMembers?: string[]
   apply?: string
+  aboutOrg?: string
 }
 
 export const ProjectCard: FC<ProjectCardProps> = ({
   orgName,
   projectTitle,
+  techStack,
   description,
   roles,
   teamMembers,
   apply,
+  aboutOrg,
 }) => {
   const [expanded, setExpanded] = useState<boolean>(false)
 
@@ -42,7 +49,7 @@ export const ProjectCard: FC<ProjectCardProps> = ({
       <Box margin={1}>
         <CardHeader title={orgName} subheader={projectTitle} />
         {apply && (
-          <Box display="flex" justifyContent="center" marginX={2}>
+          <Box display="flex" justifyContent="center" marginX={2} mb={1}>
             <a
               href={apply}
               target="_blank"
@@ -55,26 +62,48 @@ export const ProjectCard: FC<ProjectCardProps> = ({
             </a>
           </Box>
         )}
-        <CardContent>
-          {/* Icons here for tech stack */}
+        <Box px={2}>
+          <Box display="flex" justifyContent="space-around" mb={1}>
+            {techStack.map(tech => (
+              <Button fullWidth>
+                <a href={techToWebsiteMap[tech]} target="__blank">
+                  <Avatar
+                    alt={tech}
+                    src={techLogoMap[tech]}
+                    style={{ width: '2rem', height: '2rem' }}
+                  />
+                </a>
+              </Button>
+            ))}
+          </Box>
+
           <Typography variant="body1">{description}</Typography>
-        </CardContent>
-        {expanded &&
-          ((roles && (
-            <BoxFade down marginX={2}>
-              <Box display="flex" justifyContent="center" marginBottom={1}>
-                <Typography variant="subtitle1">Roles Available</Typography>
-              </Box>
-              <Paper elevation={3}>
-                {roles.map(role => (
-                  <Button key={`${orgName}-${projectTitle}-${role}`} fullWidth>
-                    {role}
-                  </Button>
-                ))}
-              </Paper>
-            </BoxFade>
-          )) ||
-            (teamMembers && 'teamMembers'))}
+        </Box>
+        {expanded && aboutOrg && (
+          <Box mx={2} my={1}>
+            <Box mb={1}>
+              <Typography variant="h6">About Organization</Typography>
+              <Divider />
+            </Box>
+            <Typography>{aboutOrg}</Typography>
+          </Box>
+        )}
+        {expanded && roles && (
+          <BoxFade down marginX={2}>
+            <Box mb={1}>
+              <Typography variant="h6">Roles</Typography>
+              <Divider />
+            </Box>
+
+            <Paper elevation={3}>
+              {roles.map(role => (
+                <Button key={`${orgName}-${projectTitle}-${role}`} fullWidth>
+                  {role}
+                </Button>
+              ))}
+            </Paper>
+          </BoxFade>
+        )}
         {expanded ? (
           <Box display="flex" justifyContent="flex-start">
             <IconButton onClick={() => setExpanded(false)}>

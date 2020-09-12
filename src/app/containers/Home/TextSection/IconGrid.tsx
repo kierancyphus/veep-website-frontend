@@ -10,7 +10,7 @@ interface WithIcon {
 }
 
 interface WithLeft {
-  left: boolean
+  iconLeft: boolean
 }
 
 const IconCard = styled(Card)<WithLeft & WithTheme>`
@@ -29,7 +29,7 @@ export const IconGrid: FC<WithIcon & WithPhone> = ({ Icon, iconLeft }) => {
             height="100%"
             justifyContent="center"
           >
-            <IconCard elevation={24} left={iconLeft || false} theme={theme}>
+            <IconCard elevation={24} iconLeft={iconLeft || false} theme={theme}>
               <Box
                 display="flex"
                 justifyContent="center"

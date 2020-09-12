@@ -24,7 +24,7 @@ export const Home: FC = () => {
     <>
       <TitleScreen startRef={startRef} isPhone={isPhone} />
       <Grid container ref={startRef}>
-        <Grid item lg={2} md={1}></Grid>
+        <Grid item lg={2} md={1} />
         <Grid item lg={8} md={10} sm={12} xs={12}>
           <Card elevation={5}>
             <Box paddingX={isPhone ? 0 : 5}>
@@ -74,7 +74,7 @@ export const Home: FC = () => {
             </Box>
           </Card>
         </Grid>
-        <Grid item lg={2} md={1}></Grid>
+        <Grid item lg={2} md={1} />
       </Grid>
     </>
   )
