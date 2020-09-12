@@ -27,10 +27,7 @@ export const App: FC = () => {
 
   return (
     <BrowserRouter>
-      <Helmet
-        titleTemplate="%s - React Boilerplate"
-        defaultTitle="React Boilerplate"
-      >
+      <Helmet titleTemplate="VEEP" defaultTitle="VEEP">
         <meta name="description" content="A React Boilerplate application" />
       </Helmet>
       {!isPhone && <NavBar />}
