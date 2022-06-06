@@ -32,24 +32,10 @@ export const App: FC = () => {
       </Helmet>
       {!isPhone && <NavBar />}
       <Switch>
-        <Route path="/" exact>
-          <Home />
-        </Route>
-        <Route path="/projects">
-          <Projects />
-        </Route>
-        <Route path="/teams">
-          <Teams />
-        </Route>
-        <Route path="/events">
-          <Events />
-        </Route>
-        <Route path="/test">
-          <Test />
-        </Route>
-        <Route path="/about-us">
-          <AboutUs />
-        </Route>
+      <Route path='/' component={() => { 
+        window.location.href = 'https://veep.skule.ca'; 
+        return null;
+      }}/>
       </Switch>
       <GlobalStyle />
     </BrowserRouter>
